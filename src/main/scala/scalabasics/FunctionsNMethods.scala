@@ -1,8 +1,10 @@
+package scalabasics
+
 /**
   * Created by $CapName on May 14, 2025.
   */
 
-object ScalaBasicCode extends App {
+object FunctionsNMethods extends App {
 
   /**
     * scala function snippet
