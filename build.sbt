@@ -12,3 +12,5 @@ version := "1.0"
 scalaVersion := "2.13.16"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.6.20"
+libraryDependencies +=   "com.typesafe.akka" %% "akka-actor-typed" % "2.6.20"
+
