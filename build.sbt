@@ -8,9 +8,19 @@
 //  )
 
 name := "hello-akka"
+
 version := "1.0"
+
 scalaVersion := "2.13.16"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.6.20"
-libraryDependencies +=   "com.typesafe.akka" %% "akka-actor-typed" % "2.6.20"
+// Define a consistent Akka version
+val AkkaVersion = "2.6.20"
+val AkkaHttpVersion = "10.2.10" // Match this to Akka 2.6
 
+// Akka core modules
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor"       % AkkaVersion,
+  "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
+  "com.typesafe.akka" %% "akka-stream"      % AkkaVersion,
+  "com.typesafe.akka" %% "akka-http"        % AkkaHttpVersion
+)
