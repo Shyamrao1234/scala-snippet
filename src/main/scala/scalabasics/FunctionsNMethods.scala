@@ -1,26 +1,24 @@
 package scalabasics
 
 /**
-  * Created by $CapName on May 14, 2025.
-  */
+ * Created by $CapName on May 14, 2025.
+ */
 
 object FunctionsNMethods extends App {
 
   /**
-    * scala function snippet
-    */
+   * scala function snippet
+   */
   val add = (x: Int) => x + 1
 
   val add1 = () => 15
 
   /**
-    * scala methods snippet
-    */
+   * scala methods snippet
+   */
   def greeting(x: Int): Int = {
     x + 10
   }
-
-
 
 
   val greetingFunc: Int => Int = greeting _
@@ -36,4 +34,24 @@ object FunctionsNMethods extends App {
 
   println(greatFunc())
 
+}
+
+object Solution {
+  def isPalindrome(x: Int): Boolean = {
+    if (x < 0) {
+      return false
+    }
+
+    var n = x
+    var rev = 0
+    while (n > 0) {
+      var d = n % 10
+      rev = rev * 10 + d
+      n = n / 10
+    }
+
+    if (rev == x) true else false
+
+
+  }
 }
