@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c90b59-55f2-44a2-b730-fb508c1e7081" name="Changes" comment="">
+    <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/http/HttpExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/http/HttpExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/FunctionsNMethods.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/FunctionsNMethods.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -38,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -45,34 +56,38 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2x4ijt7DOfG2kUR5e6W3jL7yt7p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GetterNSetter.executor": "Run",
-    "Application.HttpExample.executor": "Run",
-    "Application.LeedCode4V1.executor": "Run",
-    "Application.ScalaBasicCode.executor": "Run",
-    "Application.scalabasics.ScalaBasicCode.executor": "Run",
-    "Application.scalabasics.test.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ft-akkaExamples-shyam",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/My-Projects/scala-snippet"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GetterNSetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeedCode4V1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.scalabasics.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;review&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Scala&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.scalabasics.test">
-    <configuration name="GetterNSetter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.GetterNSetter" />
+}</component>
+  <component name="RunManager" selected="Application.LPSV2">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Demo" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scalabasics.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.HttpExample" />
+    <configuration name="LPSMemoized" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LPSMemoized" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="http.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scalabasics.ScalaBasicCode" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.ScalaBasicCode" />
+    <configuration name="LPSV2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LPSV2" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scalabasics.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scalabasics.test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.test" />
+    <configuration name="LongestPalindromicSubSeq" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestPalindromicSubSeq" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scalabasics.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.test" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.test" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.scalabasics.test" />
-        <item itemvalue="Application.HttpExample" />
+        <item itemvalue="Application.LPSV2" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.GetterNSetter" />
-        <item itemvalue="Application.scalabasics.ScalaBasicCode" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.LPSMemoized" />
+        <item itemvalue="Application.LongestPalindromicSubSeq" />
       </list>
     </recent_temporary>
   </component>
@@ -155,19 +170,129 @@
         <entry key="xml" value="XML" />
       </map>
     </option>
-    <option name="migrateConfigurationsNotificationShown" value="true" />
     <option name="outputLimit" value="60" />
     <option name="showImplicitConversions" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7c90b59-55f2-44a2-b730-fb508c1e7081" name="Changes" comment="" />
+      <changelist id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="" />
       <created>1747203885300</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747203885300</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>45</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>46</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>50</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>51</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>56</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>57</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>59</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/LongestPalindromicSubSeq.scala</url>
+          <line>62</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="j" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
