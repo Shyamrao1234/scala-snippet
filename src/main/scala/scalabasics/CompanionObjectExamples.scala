@@ -1,5 +1,7 @@
 package scalabasics
 
+
+
 class CompanionObjectExamples {
 
 }
@@ -14,13 +16,13 @@ object Circle {
 
 }
 
-object test extends App{
+object test extends App {
 
-  val c=Circle(10.2)
+  val c = Circle(10.2)
 
 
   c match {
-    case Circle(r) => println("radius : >>>"+r)
+    case Circle(r) => println("radius : >>>" + r)
   }
 
 }
@@ -34,5 +36,20 @@ object test extends App{
  * static methods cannot be override
  * static method initialized in compile time
  * */
+
+
+class Bank private(val name: String)
+
+object Bank {
+  def apply() = new Bank("HDFC")
+}
+
+
+class TestBank {
+
+  val bank=Bank
+}
+
+
 
 
