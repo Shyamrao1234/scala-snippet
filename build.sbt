@@ -8,7 +8,9 @@
 //  )
 
 name := "hello-akka"
+
 version := "1.0"
+
 scalaVersion := "2.13.16"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.6.20"
@@ -17,7 +19,3 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-slf4j" % "2.6.20",
   "ch.qos.logback" % "logback-classic" % "1.2.11"
 )
-
-
-
-
