@@ -23,7 +23,7 @@ object FutureAndPromises extends App{
 }
 
 
-object FutureExample extends App{
+object FutureExample1 extends App{
 
   def log(msg:String) = println(s"[${Thread.currentThread().getName}] $msg")
 

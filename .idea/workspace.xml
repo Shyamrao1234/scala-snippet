@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fed47d4-2139-4dba-965e-d4cc943ba856" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/OrderExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/OrderExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/FutureAndPromises.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/FutureAndPromises.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34dMXIlF5EsiZlRVeXvAW88QgQw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CharUser.executor": "Run",
+    "Application.ChatUser.executor": "Run",
+    "Application.FirstActorExample.executor": "Run",
+    "Application.FutureAndPromises.executor": "Run",
+    "Application.FutureExample1.executor": "Run",
+    "Application.TestActor.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.testv2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "review",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CharUser">
+    <configuration name="CharUser" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CharUser" />
+      <module name="hello-akka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatUser" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ChatUser" />
+      <module name="hello-akka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstActorExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="FirstActorExample" />
+      <module name="hello-akka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="actors.TestActor" />
+      <module name="hello-akka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testv2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.testv2" />
+      <module name="hello-akka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="scala-snippet_9282.scala-snippet_9282-build" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="scala-snippet_9282.scala-snippet_9282-build" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CharUser" />
+        <item itemvalue="Application.ChatUser" />
+        <item itemvalue="Application.FirstActorExample" />
+        <item itemvalue="Application.TestActor" />
+        <item itemvalue="Application.testv2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="migrateConfigurationsNotificationShown" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fed47d4-2139-4dba-965e-d4cc943ba856" name="Changes" comment="" />
+      <created>1761539033580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761539033580</updated>
+    </task>
+    <servers />
+  </component>
+</project>
