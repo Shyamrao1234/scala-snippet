@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +84,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreadModelLimitations">
-    <configuration name="FactoryController" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.FactoryController" />
+  <component name="RunManager" selected="Application.akkatypedactors.Main">
+    <configuration name="ActorIntro" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ActorIntro" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +100,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="actors.Main" />
-      <module name="hello-akka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="actors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.Shop" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
@@ -149,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="akkatypedactors.Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.Main" />
+      <module name="hello-akka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Scala-Snippet" />
       <method v="2">
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.akkatypedactors.Main" />
+        <item itemvalue="Application.ActorIntro" />
         <item itemvalue="Application.ThreadModelLimitations" />
         <item itemvalue="Application.TestActor" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FactoryController" />
-        <item itemvalue="Application.Shop" />
       </list>
     </recent_temporary>
   </component>
