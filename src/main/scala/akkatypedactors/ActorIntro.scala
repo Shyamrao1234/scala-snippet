@@ -10,6 +10,7 @@ private[akkatypedactors] object ActorIntro extends App {
     println(s"[Simple Actor] I have received message : ${message}")
 
     Behaviors.same
+    
   }
 
 
