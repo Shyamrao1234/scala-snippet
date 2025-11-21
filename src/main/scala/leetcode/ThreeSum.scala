@@ -1,5 +1,7 @@
 package leetcode
 
+import scala.concurrent.Future
+
 object ThreeSum {
   def threeSum(nums: Array[Int]): List[List[Int]] = {
     val sorted = nums.sorted
@@ -46,4 +48,12 @@ object ThreeSum {
     val triplets = threeSum(nums)
     println(triplets.map(_.mkString("[", ", ", "]")).mkString(", "))
   }
+}
+
+
+object ThredDemo extends App{
+
+
+  Thread.sleep(10000)
+
 }

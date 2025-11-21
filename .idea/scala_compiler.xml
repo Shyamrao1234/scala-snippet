@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="hello-akka,scala-snippet_9282,scala-snippet_9401" />
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="hello-akka,hello-akka.main,hello-akka.test,scala-snippet_9282,scala-snippet_9401" />
   </component>
 </project>
