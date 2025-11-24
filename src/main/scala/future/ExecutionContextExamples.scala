@@ -1,8 +1,9 @@
 package future
 
 import java.util.concurrent.{Executor, Executors}
-import scala.concurrent.duration.DurationInt
+import scala.concurrent.duration.{Duration, DurationInt}
 import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.util.{Failure, Success}
 
 class ExecutionContextExamples {}
 
@@ -79,5 +80,81 @@ object Custom extends App{
 
   result.foreach(res=> println(res))
 
+
+}
+
+
+object CallBackExample extends App{
+
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+  val result=Future{
+    println("[My Future is called ]")
+    Thread.sleep(1000)
+    123
+  }
+
+  result.onComplete (println)
+
+  Await.result(result,Duration.Inf)
+
+}
+
+
+/**
+ * Difference between foreach and onComplete
+ *
+ * foreach will not handle failure
+ * onComplete will handle failure
+ *
+ * */
+
+object ForOnComplete extends App{
+
+  import scala.concurrent.ExecutionContext.Implicits.global
+  val res=Future{
+    println("Future Executing.....")
+    10/0
+  }
+
+  res.foreach(each=>println(each))
+
+//  res.onComplete {
+//    case Failure(exception) => exception
+//    case Success(value) => value
+//  }
+
+   Await.result(res,Duration.Inf)
+
+}
+
+
+/**
+ * Example to know on which thread the call back runs
+ * */
+
+object CallBackThread extends App{
+
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+  val future=Future{
+    println("[Thread Name ].."+Thread.currentThread().getName)
+    println("Future Executing......")
+    123
+  }
+
+  Thread.sleep(500)
+
+  future.onComplete {
+    case Failure(exception) => println("")
+  case Success(value) => println("[Thread Name of callback1]..."+Thread.currentThread().getName)
+  }
+
+  future.onComplete {
+    case Failure(exception) => println("")
+    case Success(value) => println("[Thread Name of callback2]..."+Thread.currentThread().getName)
+  }
+
+  Thread.sleep(1000)
 
 }
