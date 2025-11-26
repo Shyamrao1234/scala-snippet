@@ -143,6 +143,7 @@ object CallBackThread extends App{
     123
   }
 
+
   Thread.sleep(500)
 
   future.onComplete {
@@ -156,5 +157,24 @@ object CallBackThread extends App{
   }
 
   Thread.sleep(1000)
+
+}
+
+object  FutureFilter extends App{
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+  val future=Future{
+   2
+  }
+
+ for{
+   x<- future if(x==10)
+ }yield x
+
+
+//  Await.result(res,1000.seconds)
+//
+//  res.onComplete(println)
+
 
 }
