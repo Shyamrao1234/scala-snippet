@@ -1,8 +1,9 @@
 package future
 
 import java.util.concurrent.Executors
-import scala.concurrent.{ExecutionContext, Future, Promise}
+import scala.concurrent.{Await, ExecutionContext, Future, Promise}
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.duration.DurationInt
 
 object PromisesExample extends App{
 
@@ -36,10 +37,50 @@ object PromisesExample extends App{
     doSomethingUnrelated()
   }
 
+}
 
-  
+/**
+ * If we assign data to completed promise it will fail
+ * */
+
+
+object PromisesExample2 extends App{
+
+  val promise=Promise[Int]
+  val f=promise.future
+
+  promise.success(11)
+  promise.success(11) // will throw illegal state exception
+
+}
+
+object PromisesExample3 extends App{
+
+
+  val futures =for(i<-1 to 5) yield {
+    val promise=Promise[Int]
+    val future=promise.future
+    promise.success(i)
+    future
+  }
+
+  Future{
+    futures.map{f=>
+      f.foreach(println)
+    }
+  }
 
 
 
+}
+
+
+object FutureExample43  extends App{
+  val result=Future{
+    Thread.sleep(500)
+    throw new RuntimeException("No value present")
+  }
+
+  val res=Await.result(result,1000.seconds)
 
 }
