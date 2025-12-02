@@ -1,8 +1,10 @@
 package future
 
+import jdk.jfr.internal.instrument.ThrowableTracer
+
 import java.util.concurrent.{Executor, Executors}
-import scala.concurrent.duration.DurationInt
-import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.duration.{DurationInt, SECONDS}
+import scala.concurrent.{Await, ExecutionContext, Future, blocking}
 
 class ExecutionContextExamples {}
 
@@ -47,9 +49,11 @@ object ExecutionExample2 extends App {
     123
   }
 
+
   Future.sequence(List(result2,result2)).onComplete{_=>
     executor.shutdown()
   }
+  println("Main Thread   "+   Thread.currentThread().getName)
 
 }
 
@@ -79,5 +83,65 @@ object Custom extends App{
 
   result.foreach(res=> println(res))
 
+
+}
+
+/**
+ * Running Future inside new Thread
+ */
+
+object Thread1 extends App{
+
+  val executor =Executors.newFixedThreadPool(1)
+  implicit val ec=ExecutionContext.fromExecutor(executor)
+
+  val t=new Thread(()=>{
+    Future{
+      println("[Future Thread Name] :  "+Thread.currentThread().getName)
+    }
+    Thread.sleep(2000)
+    println("[New Thread] "+Thread.currentThread().getName)
+  })
+
+
+  t.start()
+
+
+  Thread.sleep(3000)
+
+  t.interrupt()
+  executor.shutdownNow()
+
+
+}
+
+
+/**
+ * Thread Blocking Example
+ */
+
+
+object Blocking extends App{
+
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+
+    for{i <- 1 to 20}{
+     val res =  Future{
+        println(s"[No Blocking] Future ${i} started with name "+Thread.currentThread().getName)
+
+        val dta=scala.concurrent.blocking{Thread.sleep(5000); 1+i}
+
+        println(s"[No Blocking Future ${i} finished with thread name "+Thread.currentThread().getName)
+        dta
+      }
+      res.foreach(x=>println("result  "+x))
+    }
+
+
+
+
+
+  Thread.sleep(6000)
 
 }
