@@ -21,6 +21,8 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.2.11",
   "com.typesafe.akka" %% "akka-stream"% "2.6.20",
   "com.typesafe.akka" %% "akka-http"% "10.2.10",
-  "com.typesafe.akka" %% "akka-stream-kafka" % akkaStreamKafkaVersion
+  "com.typesafe.akka" %% "akka-stream-kafka" % akkaStreamKafkaVersion,
+//"org.apache.kafka" %% "kafka" % "3.6.0", // Core Kafka
+//"org.apache.kafka" % "kafka-clients" % "3.6.0" // Kafka client library
 )
 
