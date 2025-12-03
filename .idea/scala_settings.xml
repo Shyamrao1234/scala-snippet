@@ -7,7 +7,6 @@
         <entry key="xml" value="XML" />
       </map>
     </option>
-    <option name="migrateConfigurationsNotificationShown" value="true" />
     <option name="outputLimit" value="60" />
     <option name="showImplicitConversions" value="true" />
   </component>
