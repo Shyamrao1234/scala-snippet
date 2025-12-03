@@ -9,7 +9,7 @@ object LCS extends App {
   def f(s1:Int,s2:Int):Int = {
    if(s1<0 || s2<0)  0
    else if(str1(s1)==str2(s2)){
-    list.addOne(str1(s1))
+    list.append(str1(s1))
     1+ f(s1-1,s2-1)
    } else {
     val left=f(s1-1,s2)

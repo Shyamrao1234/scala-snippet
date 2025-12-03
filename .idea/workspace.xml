@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/LCS.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/LCS.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
     "Application.GetterNSetter.executor": "Run",
     "Application.GlobalContext.executor": "Run",
     "Application.LeedCode4V1.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
     "Application.ScalaBasicCode.executor": "Run",
     "Application.scalabasics.ScalaBasicCode.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
@@ -88,7 +90,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Custom">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="Custom" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="future.Custom" />
       <module name="hello-akka.main" />
@@ -141,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="akkatypedactors.Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.Main" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.PatternMatching" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="PATTERN" value="scalabasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.Custom" />
         <item itemvalue="Application.ExecutionExample2" />
         <item itemvalue="Application.GlobalContext" />
         <item itemvalue="Application.ExecutionContextExamples" />
-        <item itemvalue="Application.akkatypedactors.Main" />
       </list>
     </recent_temporary>
   </component>
