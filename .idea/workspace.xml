@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/future/DurationExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/future/PromisesExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/future/ExecutionContextExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/future/ExecutionContextExamples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ActorIntro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ActorIntro.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/future/ThreadModelLimitations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/future/ThreadModelLimitations.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +94,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Producer">
-    <configuration name="Blocking" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.Blocking" />
+  <component name="RunManager" selected="Application.ChildActorExercise">
+    <configuration name="ChildActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ChildActor" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockingExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.BlockingExample" />
+    <configuration name="ChildActorExercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ChildActorExercise" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutionExample2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.ExecutionExample2" />
+    <configuration name="ContextExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ContextExample" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.Producer" />
+    <configuration name="ManagingActorState" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ManagingActorState" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kafka.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.Thread1" />
+    <configuration name="MultipleChildrenManage" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MultipleChildrenManage" />
       <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Blocking" />
-        <item itemvalue="Application.BlockingExample" />
-        <item itemvalue="Application.Thread1" />
-        <item itemvalue="Application.ExecutionExample2" />
+        <item itemvalue="Application.ChildActorExercise" />
+        <item itemvalue="Application.ContextExample" />
+        <item itemvalue="Application.MultipleChildrenManage" />
+        <item itemvalue="Application.ChildActor" />
+        <item itemvalue="Application.ManagingActorState" />
       </list>
     </recent_temporary>
   </component>
