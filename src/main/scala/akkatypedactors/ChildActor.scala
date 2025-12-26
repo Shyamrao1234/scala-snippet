@@ -3,7 +3,7 @@ package akkatypedactors
 import akka.actor.typed.{ActorRef, ActorSystem, Behavior}
 import akka.actor.typed.scaladsl.Behaviors
 
-import scala.concurrent.duration.DurationInt
+import scala.concurrent.duration.{DurationInt, pairIntToDuration}
 
 object ChildActor {
 
@@ -83,6 +83,8 @@ object MultipleChildrenManage {
     trait Command
     case class CreateChild(name: String) extends Command
     case class TellChild(name: String, message: String) extends Command
+    case class StopChild(name:String) extends Command
+
 
     def apply(): Behavior[Command] = active(Map())
 
@@ -98,6 +100,12 @@ object MultipleChildrenManage {
           context.log.info(s"[${context.self.path.name}] Sending message to child ${name}")
           children.get(name).fold(context.log.info(s"[${context.self.path.name}] ${name} not found."))(child => child ! message)
           Behaviors.same
+
+        case StopChild(name)=>
+          context.log.info("[parent] Attempting to stop child")
+          val childRef = children.get(name)
+          childRef.fold(context.log.info("Child not found"))(context.stop)
+          active(children - name)
       }
     }
   }
@@ -110,6 +118,8 @@ object MultipleChildrenManage {
         parent ! CreateChild("Sahadev")
         parent ! TellChild("Mahadev", "Where are you?")
         parent ! TellChild("Jonny", "don't do that")
+        parent ! StopChild("Sahadev")
+        parent ! TellChild("Sahadev","Hello sahadev are you there?")
 
         Behaviors.empty
       }

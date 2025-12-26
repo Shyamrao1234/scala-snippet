@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/BreakingActorEncapsulation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/NotificationCentreSystem.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/OrderProcessingSystem.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/StoppingActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ChildActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ChildActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ChildActorExercise.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/ChildActorExercise.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +49,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Package Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-8.0.462.8-hotspot/src.zip!/java/util/concurrent/ExecutorService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,6 +70,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2x4ijt7DOfG2kUR5e6W3jL7yt7p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +83,6 @@
     &quot;Application.GetterNSetter.executor&quot;: &quot;Run&quot;,
     &quot;Application.GlobalContext.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeedCode4V1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternMatching.executor&quot;: &quot;Run&quot;,
     &quot;Application.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
     &quot;Application.scalabasics.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -90,13 +100,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.FutureExample43">
-    <configuration name="Custom" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.Custom" />
-      <module name="hello-akka.main" />
+  <component name="RunManager" selected="Application.StoppingActor">
+    <configuration name="ChildActorExercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ChildActorExercise" />
+      <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutionExample2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.ExecutionExample2" />
-      <module name="hello-akka.main" />
+    <configuration name="MultipleChildrenManage" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MultipleChildrenManage" />
+      <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureExample43" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.FutureExample43" />
-      <module name="hello-akka.main" />
+    <configuration name="NotificationCentreSystem" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.NotificationCentreSystem" />
+      <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalContext" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="future.GlobalContext" />
-      <module name="hello-akka.main" />
+    <configuration name="OrderProcessingSystem" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.OrderProcessingSystem" />
+      <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="future.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.PatternMatching" />
-      <module name="hello-akka.main" />
+    <configuration name="StoppingActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.StoppingActor" />
+      <module name="hello-akka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scalabasics.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FutureExample43" />
-        <item itemvalue="Application.PatternMatching" />
-        <item itemvalue="Application.Custom" />
-        <item itemvalue="Application.ExecutionExample2" />
-        <item itemvalue="Application.GlobalContext" />
+        <item itemvalue="Application.StoppingActor" />
+        <item itemvalue="Application.MultipleChildrenManage" />
+        <item itemvalue="Application.OrderProcessingSystem" />
+        <item itemvalue="Application.NotificationCentreSystem" />
+        <item itemvalue="Application.ChildActorExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +189,6 @@
         <entry key="xml" value="XML" />
       </map>
     </option>
-    <option name="migrateConfigurationsNotificationShown" value="true" />
     <option name="outputLimit" value="60" />
     <option name="showImplicitConversions" value="true" />
   </component>
@@ -193,6 +202,17 @@
       <updated>1747203885300</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

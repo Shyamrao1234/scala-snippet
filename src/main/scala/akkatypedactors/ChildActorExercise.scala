@@ -17,9 +17,7 @@ object ChildActorExercise {
 
   //Master messages
   case class Initialize(nChildren: Int) extends MasterProtocol
-
   case class WordCountTask(text: String, replyTo: ActorRef[UserProtocol]) extends MasterProtocol
-
   case class WordCountReply(id: Int, count: Int) extends MasterProtocol
 
   //Worker messages
