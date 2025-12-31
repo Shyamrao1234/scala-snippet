@@ -2,7 +2,6 @@ package kafka
 
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord}
-
 import java.util.Properties
 
 object Producer extends App {
