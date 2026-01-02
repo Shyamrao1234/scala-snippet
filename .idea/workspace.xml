@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/BreakingActorEncapsulation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/BreakingActorEncapsulation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/Producer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/Producer.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +71,15 @@
     "Application.Custom.executor": "Run",
     "Application.ExecutionContextExamples.executor": "Run",
     "Application.ExecutionExample2.executor": "Run",
+    "Application.FirstPrinciple.executor": "Run",
     "Application.GetterNSetter.executor": "Run",
     "Application.GlobalContext.executor": "Run",
+    "Application.ImplicitExample.executor": "Run",
     "Application.LeedCode4V1.executor": "Run",
     "Application.PublishMessage.executor": "Run",
     "Application.RestartSourceExample.executor": "Run",
     "Application.ScalaBasicCode.executor": "Run",
+    "Application.ScalaRecapStream.executor": "Run",
     "Application.SubscribeMessage.executor": "Run",
     "Application.Supervision.executor": "Run",
     "Application.UserSessionManager.executor": "Run",
@@ -102,13 +99,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RestartSourceExample">
-    <configuration name="ChatRoomSystem" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.ChatRoomSystem" />
+  <component name="RunManager" selected="Application.FirstPrinciple">
+    <configuration name="FirstPrinciple" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkastreams.FirstPrinciple" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="PATTERN" value="akkastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublishMessage" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mqtt.PublishMessage" />
+    <configuration name="ImplicitExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkastreams.ImplicitExample" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mqtt.*" />
+          <option name="PATTERN" value="akkastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubscribeMessage" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mqtt.SubscribeMessage" />
+    <configuration name="ScalaRecapStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkastreams.ScalaRecapStream" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mqtt.*" />
+          <option name="PATTERN" value="akkastreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Supervision" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.Supervision" />
+    <configuration name="SubscribeMessage" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="mqtt.SubscribeMessage" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="PATTERN" value="mqtt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstPrinciple" />
+        <item itemvalue="Application.ImplicitExample" />
+        <item itemvalue="Application.ScalaRecapStream" />
         <item itemvalue="Application.RestartSourceExample" />
         <item itemvalue="Application.SubscribeMessage" />
-        <item itemvalue="Application.PublishMessage" />
-        <item itemvalue="Application.Supervision" />
-        <item itemvalue="Application.ChatRoomSystem" />
       </list>
     </recent_temporary>
   </component>
