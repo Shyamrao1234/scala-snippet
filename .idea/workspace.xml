@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/ImplicitClassExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/ImplicitClassExamples.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ChatRoomSystem.executor": "Run",
+    "Application.CounterRaceConditionSolve.executor": "Run",
     "Application.Custom.executor": "Run",
     "Application.ExecutionContextExamples.executor": "Run",
     "Application.ExecutionExample2.executor": "Run",
@@ -76,13 +79,18 @@
     "Application.GlobalContext.executor": "Run",
     "Application.ImplicitExample.executor": "Run",
     "Application.LeedCode4V1.executor": "Run",
+    "Application.MaterializingStream.executor": "Run",
     "Application.PublishMessage.executor": "Run",
     "Application.RestartSourceExample.executor": "Run",
+    "Application.Run.executor": "Run",
     "Application.ScalaBasicCode.executor": "Run",
+    "Application.ScalaInterviewPractice.executor": "Run",
     "Application.ScalaRecapStream.executor": "Run",
     "Application.SubscribeMessage.executor": "Run",
     "Application.Supervision.executor": "Run",
     "Application.UserSessionManager.executor": "Run",
+    "Application.WorkerActorExample.executor": "Run",
+    "Application.findEachSentenceCount.executor": "Run",
     "Application.scalabasics.ScalaBasicCode.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -99,9 +107,22 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstPrinciple">
-    <configuration name="FirstPrinciple" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkastreams.FirstPrinciple" />
+  <component name="RunManager" selected="Application.WorkerActorExample">
+    <configuration name="CounterRaceConditionSolve" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.CounterRaceConditionSolve" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaterializingStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkastreams.MaterializingStream" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -113,51 +134,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplicitExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkastreams.ImplicitExample" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.Run" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerActorExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.WorkerActorExample" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findEachSentenceCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkastreams.findEachSentenceCount" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="akkastreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestartSourceExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mqtt.RestartSourceExample" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mqtt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaRecapStream" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkastreams.ScalaRecapStream" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="akkastreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubscribeMessage" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="mqtt.SubscribeMessage" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mqtt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstPrinciple" />
-        <item itemvalue="Application.ImplicitExample" />
-        <item itemvalue="Application.ScalaRecapStream" />
-        <item itemvalue="Application.RestartSourceExample" />
-        <item itemvalue="Application.SubscribeMessage" />
+        <item itemvalue="Application.WorkerActorExample" />
+        <item itemvalue="Application.findEachSentenceCount" />
+        <item itemvalue="Application.MaterializingStream" />
+        <item itemvalue="Application.CounterRaceConditionSolve" />
+        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>
