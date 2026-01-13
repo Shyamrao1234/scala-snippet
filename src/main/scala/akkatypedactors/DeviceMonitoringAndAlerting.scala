@@ -2,9 +2,14 @@ package akkatypedactors
 
 object DeviceMonitoringAndAlerting {
 
-
-  trait DeviceCommand
-  case class DeviceManager(name:String)
+   /**
+    * 1 :->  check weather gateway is online or offline
+    * 2 :->
+    *
+    *
+    *
+    *
+    * */
 
 
 

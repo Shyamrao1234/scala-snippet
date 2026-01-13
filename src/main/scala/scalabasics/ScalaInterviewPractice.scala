@@ -2,6 +2,7 @@ package scalabasics
 
 import akka.actor.typed.{ActorSystem, Behavior}
 import akka.actor.typed.scaladsl.Behaviors
+import jdk.nashorn.internal.ir.IdentNode
 
 import scala.annotation.tailrec
 import scala.concurrent.Future
@@ -94,4 +95,75 @@ object CounterRaceConditionSolve extends App{
 
 
    val x:Nothing=throw new Exception("")
+}
+
+
+object Play extends App{
+
+
+  def aRepeatedString(str:String,number:Int):String = {
+    if(number==1) str else str + aRepeatedString(str, number-1)
+  }
+
+  //normal recursive call
+  def factorial(n:Int):Int = {
+    if(n<=0) 1 else n* factorial(n-1)
+  }
+
+  def tailFactorial(n:Int,acc:Int=1):Int={
+  if(n<=0) acc else tailFactorial(n-1, acc*n)
+  }
+
+
+  def fibonacci(n:Int):Int={
+  if(n<=2) 1 else fibonacci(n-1)+fibonacci(n-2)
+  }
+
+  println("RepeatedString"+aRepeatedString("hello",3))
+  println("factorial....."+factorial(3))
+  println("tailFactorial....."+tailFactorial(3))
+  println("fibonacci...."+fibonacci(4))
+
+  val list:List[Int] = List(1,2,3,4,5)
+  list.foreach(x=>println(x.asInstanceOf[AnyRef].getClass))
+
+  val h=10
+  println("normal Int...."+h.asInstanceOf[AnyRef].getClass)
+
+    //functions sugar
+  val function1:Int=>Int = x => x+1
+  println("function1...."+function1(10))
+
+  val function2:Int=>Int=>Int=x=>y=>x+y
+  val partialFunction = function2(10)
+
+
+
+  def isPrime(n:Int):Boolean = {
+
+    def isUntilPrime(t:Int): Boolean = {
+      if(t<=1) true
+      else n%t !=0 && isUntilPrime(t-1)
+    }
+    isUntilPrime(n/2)
+  }
+
+  println("isPrime...."+isPrime(4))
+  println("partialFunction..."+partialFunction(20))
+  println("function2...."+function2(10)(21))
+
+  println("divide..."+  (10/3))
+  println("modbus..."+ 10%3)
+
+  println("square root "+ Math.sqrt(10))
+  println("Isprime..2....."+ (if(2%2 != 0)true else false))
+
+
+
+  //type inference
+  val x1=10
+  val y1= x1 + "string"
+  println("y1..."+y1)
+
+
 }

@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/ImplicitClassExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/ImplicitClassExamples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/DeviceMonitoringAndAlerting.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/DeviceMonitoringAndAlerting.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/Supervision.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/Supervision.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/ScalaInterviewPractice.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/ScalaInterviewPractice.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,49 +70,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ChatRoomSystem.executor": "Run",
-    "Application.CounterRaceConditionSolve.executor": "Run",
-    "Application.Custom.executor": "Run",
-    "Application.ExecutionContextExamples.executor": "Run",
-    "Application.ExecutionExample2.executor": "Run",
-    "Application.FirstPrinciple.executor": "Run",
-    "Application.GetterNSetter.executor": "Run",
-    "Application.GlobalContext.executor": "Run",
-    "Application.ImplicitExample.executor": "Run",
-    "Application.LeedCode4V1.executor": "Run",
-    "Application.MaterializingStream.executor": "Run",
-    "Application.PublishMessage.executor": "Run",
-    "Application.RestartSourceExample.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.ScalaBasicCode.executor": "Run",
-    "Application.ScalaInterviewPractice.executor": "Run",
-    "Application.ScalaRecapStream.executor": "Run",
-    "Application.SubscribeMessage.executor": "Run",
-    "Application.Supervision.executor": "Run",
-    "Application.UserSessionManager.executor": "Run",
-    "Application.WorkerActorExample.executor": "Run",
-    "Application.findEachSentenceCount.executor": "Run",
-    "Application.scalabasics.ScalaBasicCode.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "review",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CallByValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatRoomSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterRaceConditionSolve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Custom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutionContextExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutionExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstPrinciple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetterNSetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GlobalContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplicitExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeedCode4V1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaterializingStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Play.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PublishMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RestartSourceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RouterPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScalaInterviewPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScalaRecapStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubscribeMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Supervision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThrottleExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserSessionManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerActorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findEachSentenceCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.scalabasics.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;review&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Scala"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Scala&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.WorkerActorExample">
-    <configuration name="CounterRaceConditionSolve" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.CounterRaceConditionSolve" />
+}</component>
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.CallByValue" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -121,21 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaterializingStream" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkastreams.MaterializingStream" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="akkastreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scalabasics.Run" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.PatternMatching" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +148,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerActorExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.WorkerActorExample" />
+    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabasics.StringOperations" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.TestDemo" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -160,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findEachSentenceCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkastreams.findEachSentenceCount" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.test" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkastreams.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WorkerActorExample" />
-        <item itemvalue="Application.findEachSentenceCount" />
-        <item itemvalue="Application.MaterializingStream" />
-        <item itemvalue="Application.CounterRaceConditionSolve" />
-        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.PatternMatching" />
+        <item itemvalue="Application.StringOperations" />
+        <item itemvalue="Application.CallByValue" />
       </list>
     </recent_temporary>
   </component>

@@ -17,6 +17,9 @@ val alpakkaMqttVersion="2.0.1"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.6.20"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % "2.6.20"
+
+val jodaDateTime="joda-time" % "joda-time" % "2.9.3"
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-slf4j" % "2.6.20",
   "ch.qos.logback" % "logback-classic" % "1.2.11",
@@ -25,7 +28,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-testkit" % "2.6.20",
   "com.typesafe.akka" %% "akka-http"% "10.2.10",
   "com.typesafe.akka" %% "akka-stream-kafka" % akkaStreamKafkaVersion,
-  "com.lightbend.akka" %% "akka-stream-alpakka-mqtt" % alpakkaMqttVersion
+  "com.lightbend.akka" %% "akka-stream-alpakka-mqtt" % alpakkaMqttVersion,
+  jodaDateTime
 //"org.apache.kafka" %% "kafka" % "3.6.0", // Core Kafka
 //"org.apache.kafka" % "kafka-clients" % "3.6.0" // Kafka client library
 )

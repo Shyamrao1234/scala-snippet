@@ -2,6 +2,7 @@ package akkatypedactors
 
 import akka.actor.typed.{ActorSystem, Behavior, SupervisorStrategy, Terminated}
 import akka.actor.typed.scaladsl.Behaviors
+import org.joda.time.DateTime
 
 object Supervision {
 
@@ -80,4 +81,45 @@ object Supervision {
   def main(args: Array[String]): Unit = {
     demoCrash()
   }
+}
+
+
+
+object test extends App{
+
+  def demo(list:List[Int],position:Int):Int={
+
+    def innerMethod(list:List[Int],position:Int,acc:Int,index:Int= 0): Int = {
+      list match{
+        case   Nil => acc
+        case  head :: tail => if(index==position) {    //head -> 1,2,3
+          innerMethod(tail,position,head,index+1)
+        }else{
+          innerMethod(tail,position,acc,index+1)  //tail -> List(2,3,4),List(3,4)
+        }                                          // index->0,1,2
+      }
+    }
+    innerMethod(list,position,0)
+  }
+
+  println(demo(List(1,2,3,4),2))
+}
+
+
+object TestDemo extends App{
+
+  def demo(x: => Long = DateTime.now().getMillis) = {
+    println(x)
+    Thread.sleep(200)
+    println(x)
+  }
+
+  def demo1(x: Long = DateTime.now().getMillis) = {
+    println(x)
+    Thread.sleep(200)
+    println(x)
+  }
+
+//  demo1()
+  demo()
 }
