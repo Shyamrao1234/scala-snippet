@@ -23,3 +23,27 @@ object LeetCode3 extends App {
   println(lengthOfLongestSubstring(input))
 
 }
+
+object LongestSubString {
+
+
+  def execute(str: String) = {
+    var left = 0
+    var maxLength = 0
+    val lastSeen = collection.mutable.Map[Char, Int]() //here we store char and index
+    for (right <- str.indices) {
+      val char = str(right)
+      if (lastSeen.contains(char) && lastSeen(char) >= left) {
+        left = lastSeen(char) + 1
+      }
+      lastSeen(char) = right
+      maxLength = math.max(maxLength, right - left + 1)
+    }
+    maxLength
+  }
+
+  def main(args: Array[String]): Unit = {
+    println(execute("bbb"))
+  }
+
+}

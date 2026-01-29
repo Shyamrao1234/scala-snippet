@@ -25,6 +25,9 @@ object AnonymousFunctions extends App{
     override def apply(v1: Int, v2: Int): Int = v1+v2
   }
 
+  println("shyam")
+
+
   // simple form to write above code
   val adder_v2=(a:Int,b:Int) => a+b
 

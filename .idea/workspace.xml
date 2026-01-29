@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/MapFlatMapAndFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/Sequence.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/MaterializingStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/MaterializingStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/DeviceMonitoringAndAlerting.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/RouterPoolExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/RouterPoolExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/SensorDataManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/SensorDataManagement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/AnonymousFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/AnonymousFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/HOFsANDCurried.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/HOFsANDCurried.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/OOBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/OOBasics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +62,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-8.0.462.8-hotspot/src.zip!/java/util/concurrent/ExecutorService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/Int.scala" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/PartialFunction.scala" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/math/Ordering.scala" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,72 +80,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnonymousFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallByValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatRoomSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterRaceConditionSolve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Custom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionAndErrors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutionContextExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutionExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstPrinciple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Functions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetterNSetter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GlobalContext.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HOFsANDCurried.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplicitExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeedCode4V1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaterializingStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOBasics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternEveryWhere.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternMatching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Play.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PublishMessage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestartSourceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RouterPoolExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScalaInterviewPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScalaRecapStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubscribeMessage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Supervision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThrottleExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserSessionManager.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WorkerActorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findEachSentenceCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.scalabasics.ScalaBasicCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;review&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/My-Projects/scala-snippet&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnonymousFunctions.executor": "Run",
+    "Application.BackPressureExample.executor": "Run",
+    "Application.CallByValue.executor": "Run",
+    "Application.ChatRoomSystem.executor": "Run",
+    "Application.CounterRaceConditionSolve.executor": "Run",
+    "Application.Custom.executor": "Run",
+    "Application.DigitExtraction.executor": "Run",
+    "Application.Example1.executor": "Run",
+    "Application.ExceptionAndErrors.executor": "Run",
+    "Application.ExecutionContextExamples.executor": "Run",
+    "Application.ExecutionExample2.executor": "Run",
+    "Application.FirstPrinciple.executor": "Run",
+    "Application.FirstPrincipleRecap.executor": "Run",
+    "Application.Functions.executor": "Run",
+    "Application.GetterNSetter.executor": "Run",
+    "Application.GlobalContext.executor": "Run",
+    "Application.GraphBasicExamples.executor": "Run",
+    "Application.GraphsBasics.executor": "Run",
+    "Application.HOFsANDCurried.executor": "Run",
+    "Application.HigherOrderExample.executor": "Run",
+    "Application.ImplicitExample.executor": "Run",
+    "Application.InterviewTest.executor": "Run",
+    "Application.LeedCode4V1.executor": "Run",
+    "Application.LongestSubString.executor": "Run",
+    "Application.LongestSubstringPointers.executor": "Debug",
+    "Application.LowLevelAPI.executor": "Run",
+    "Application.MainAsk.executor": "Run",
+    "Application.MapFlatMapAndFor.executor": "Run",
+    "Application.MaterializingRecap.executor": "Run",
+    "Application.MaterializingStream.executor": "Run",
+    "Application.OOBasics.executor": "Run",
+    "Application.OpenGraphs.executor": "Run",
+    "Application.OperatorFusion.executor": "Run",
+    "Application.OrderingExamples.executor": "Run",
+    "Application.PartialFunction.executor": "Run",
+    "Application.PatternEveryWhere.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
+    "Application.Patterns.executor": "Run",
+    "Application.Play.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PublishMessage.executor": "Run",
+    "Application.Recursion.executor": "Run",
+    "Application.RestartSourceExample.executor": "Run",
+    "Application.RouterExample.executor": "Run",
+    "Application.RouterExample_2.executor": "Run",
+    "Application.RouterPoolExample.executor": "Run",
+    "Application.Run.executor": "Run",
+    "Application.ScalaBasicCode.executor": "Run",
+    "Application.ScalaInterviewPractice.executor": "Run",
+    "Application.ScalaRecapStream.executor": "Run",
+    "Application.SensorDataManagement.executor": "Run",
+    "Application.Sequence.executor": "Run",
+    "Application.StringOperations.executor": "Run",
+    "Application.SubscribeMessage.executor": "Run",
+    "Application.Supervision.executor": "Run",
+    "Application.TestDemo.executor": "Run",
+    "Application.ThrottleExample.executor": "Run",
+    "Application.TwoSumRecap.executor": "Run",
+    "Application.UserSessionManager.executor": "Run",
+    "Application.WorkerActorExample.executor": "Run",
+    "Application.findEachSentenceCount.executor": "Run",
+    "Application.scalabasics.ScalaBasicCode.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "review",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/My-Projects/scala-snippet",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Scala&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Scala"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.ExceptionAndErrors">
-    <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oopsbasic.AnonymousFunctions" />
+}]]></component>
+  <component name="RunManager" selected="Application.LongestSubString">
+    <configuration name="InterviewTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="interview.InterviewTest" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oopsbasic.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionAndErrors" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oopsbasic.ExceptionAndErrors" />
+    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubString" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oopsbasic.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oopsbasic.Functions" />
+    <configuration name="LongestSubstringPointers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="interview.LongestSubstringPointers" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oopsbasic.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HOFsANDCurried" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oopsbasic.HOFsANDCurried" />
+    <configuration name="LowLevelAPI" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.LowLevelAPI" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oopsbasic.*" />
+          <option name="PATTERN" value="http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="oopsbasic.OOBasics" />
+    <configuration name="MainAsk" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MainAsk" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oopsbasic.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExceptionAndErrors" />
-        <item itemvalue="Application.HOFsANDCurried" />
-        <item itemvalue="Application.AnonymousFunctions" />
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.OOBasics" />
+        <item itemvalue="Application.LongestSubString" />
+        <item itemvalue="Application.MainAsk" />
+        <item itemvalue="Application.LongestSubstringPointers" />
+        <item itemvalue="Application.InterviewTest" />
+        <item itemvalue="Application.LowLevelAPI" />
       </list>
     </recent_temporary>
   </component>
