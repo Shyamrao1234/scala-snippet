@@ -2,17 +2,14 @@ package collections
 
 object MapDemo extends App {
 
-  val map=scala.collection.mutable.Map[Char,Int]()
 
-  map('a')=10
+  val map = scala.collection.mutable.Map(1 -> "A", 2 -> "B")
 
-  map.foreach(println)
+  map.put(1,"C") match {
+    case None => println("None")
+    case Some(value) => ""
+  }
 
-  map('a')=20
-
-  map.foreach(println)
-
-  val keyOpt=map.get('a')
 
 
 }

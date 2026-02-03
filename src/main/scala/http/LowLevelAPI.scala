@@ -81,6 +81,7 @@ object LowLevelAPI extends App {
         headers = List(Location("http://google.com"))
       )
     case request: HttpRequest=>
+      request.discardEntityBytes()
       HttpResponse(
         StatusCodes.NotFound,
         entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, "OOps not found")

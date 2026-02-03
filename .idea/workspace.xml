@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/MapFlatMapAndFor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/Sequence.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/FirstPrinciple.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkastreams/MaterializingStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkastreams/MaterializingStream.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/DeviceMonitoringAndAlerting.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/RouterPoolExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/RouterPoolExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/akkatypedactors/SensorDataManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akkatypedactors/SensorDataManagement.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/LeetCode3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/AnonymousFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/AnonymousFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/HOFsANDCurried.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/HOFsANDCurried.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/OOBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/OOBasics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/http/LowLevelAPI.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/http/LowLevelAPI.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +78,7 @@
     "Application.CounterRaceConditionSolve.executor": "Run",
     "Application.Custom.executor": "Run",
     "Application.DigitExtraction.executor": "Run",
+    "Application.DirectiveBreakDown.executor": "Run",
     "Application.Example1.executor": "Run",
     "Application.ExceptionAndErrors.executor": "Run",
     "Application.ExecutionContextExamples.executor": "Run",
@@ -101,6 +91,8 @@
     "Application.GraphBasicExamples.executor": "Run",
     "Application.GraphsBasics.executor": "Run",
     "Application.HOFsANDCurried.executor": "Run",
+    "Application.HighLevelExercise.executor": "Run",
+    "Application.HighLevelIntro.executor": "Run",
     "Application.HigherOrderExample.executor": "Run",
     "Application.ImplicitExample.executor": "Run",
     "Application.InterviewTest.executor": "Run",
@@ -108,7 +100,9 @@
     "Application.LongestSubString.executor": "Run",
     "Application.LongestSubstringPointers.executor": "Debug",
     "Application.LowLevelAPI.executor": "Run",
+    "Application.LowLevelRest.executor": "Run",
     "Application.MainAsk.executor": "Run",
+    "Application.MapDemo.executor": "Run",
     "Application.MapFlatMapAndFor.executor": "Run",
     "Application.MaterializingRecap.executor": "Run",
     "Application.MaterializingStream.executor": "Run",
@@ -162,48 +156,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubString">
-    <configuration name="InterviewTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="interview.InterviewTest" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubString" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubstringPointers" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="interview.LongestSubstringPointers" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowLevelAPI" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.LowLevelAPI" />
+  <component name="RunManager" selected="Application.HighLevelExercise">
+    <configuration name="DirectiveBreakDown" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.DirectiveBreakDown" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -215,12 +170,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAsk" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MainAsk" />
+    <configuration name="HighLevelExercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.HighLevelExercise" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="PATTERN" value="http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighLevelIntro" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.HighLevelIntro" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LowLevelRest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.LowLevelRest" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="collections.MapDemo" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.MainAsk" />
-        <item itemvalue="Application.LongestSubstringPointers" />
-        <item itemvalue="Application.InterviewTest" />
-        <item itemvalue="Application.LowLevelAPI" />
+        <item itemvalue="Application.HighLevelExercise" />
+        <item itemvalue="Application.DirectiveBreakDown" />
+        <item itemvalue="Application.HighLevelIntro" />
+        <item itemvalue="Application.LowLevelRest" />
+        <item itemvalue="Application.MapDemo" />
       </list>
     </recent_temporary>
   </component>
