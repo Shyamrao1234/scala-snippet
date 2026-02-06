@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/http/LowLevelAPI.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/http/LowLevelAPI.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +91,7 @@
     "Application.HOFsANDCurried.executor": "Run",
     "Application.HighLevelExercise.executor": "Run",
     "Application.HighLevelIntro.executor": "Run",
+    "Application.HigherLevelExercise_2.executor": "Run",
     "Application.HigherOrderExample.executor": "Run",
     "Application.ImplicitExample.executor": "Run",
     "Application.InterviewTest.executor": "Run",
@@ -104,6 +103,7 @@
     "Application.MainAsk.executor": "Run",
     "Application.MapDemo.executor": "Run",
     "Application.MapFlatMapAndFor.executor": "Run",
+    "Application.MarshallingJson.executor": "Run",
     "Application.MaterializingRecap.executor": "Run",
     "Application.MaterializingStream.executor": "Run",
     "Application.OOBasics.executor": "Run",
@@ -156,7 +156,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HighLevelExercise">
+  <component name="RunManager" selected="Application.MarshallingJson">
     <configuration name="DirectiveBreakDown" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="http.DirectiveBreakDown" />
       <module name="hello-akka.main" />
@@ -196,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowLevelRest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.LowLevelRest" />
+    <configuration name="HigherLevelExercise_2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.HigherLevelExercise_2" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -209,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="collections.MapDemo" />
+    <configuration name="MarshallingJson" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="http.MarshallingJson" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MarshallingJson" />
+        <item itemvalue="Application.HigherLevelExercise_2" />
         <item itemvalue="Application.HighLevelExercise" />
         <item itemvalue="Application.DirectiveBreakDown" />
         <item itemvalue="Application.HighLevelIntro" />
-        <item itemvalue="Application.LowLevelRest" />
-        <item itemvalue="Application.MapDemo" />
       </list>
     </recent_temporary>
   </component>
