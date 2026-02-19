@@ -1,7 +1,15 @@
 package collections
 
-object ListExample {
+object ListExample extends App{
 
-  val lust=List(1,2,3)
+  var list = List(1,2,3,4)
+
+  list = 0 :: list
+  list = list :+ 10
+
+  println(list)
+
+  println(list ::: list)
+
 
 }

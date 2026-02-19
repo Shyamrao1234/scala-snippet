@@ -73,19 +73,41 @@ object PatternMatching extends App {
     case List(1, _, _, _) => print("case-4")
   }
 
-  val number:List[Any] =List(1,2,3,4)
+  val number: List[Any] = List(1, 2, 3, 4)
   val numberMatch = number match {
-    case stringList:List[String] => println("string list")  //output will be this
-    case numList:List[Int] => println("number list")
+    case stringList: List[String] => println("string list") //output will be this
+    case numList: List[Int] => println("number list")
     case _ => println("wildCard number")
-   }
+  }
 
 
   val fixNumberListMatch = number match {
-    case List(_:String ,_*) =>println("list of string")
-    case List(_: Int,_*)=>println("list of number")
+    case List(_: String, _*) => println("list of string")
+    case List(_: Int, _*) => println("list of number")
   }
 
   fixNumberListMatch
+
+}
+
+object ListPatternMatching extends App {
+
+  def pattern1(list: List[Int]) = {
+    list match {
+      case Nil => println("Nil")
+      case init :+ last => println(s"${last}")
+    }
+  }
+
+  def flatten(list: List[Any]): List[Int] = {
+   list.flatMap{
+     case i:Int => List(i)
+     case l:List[_] => flatten(l)
+   }
+  }
+
+
+
+  println(flatten(List(1, 2, List(3, 4),List(5, 6))))
 
 }

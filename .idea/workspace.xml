@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/ReverseInteger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/ReverseInteger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnonymousFunctions.executor": "Run",
+    "Application.ArrayExample.executor": "Run",
     "Application.BackPressureExample.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BinarySearchDemo.executor": "Run",
     "Application.CallByValue.executor": "Run",
     "Application.ChatRoomSystem.executor": "Run",
     "Application.CounterRaceConditionSolve.executor": "Run",
@@ -81,6 +89,7 @@
     "Application.ExceptionAndErrors.executor": "Run",
     "Application.ExecutionContextExamples.executor": "Run",
     "Application.ExecutionExample2.executor": "Run",
+    "Application.FindUniqueElements.executor": "Run",
     "Application.FirstPrinciple.executor": "Run",
     "Application.FirstPrincipleRecap.executor": "Run",
     "Application.Functions.executor": "Run",
@@ -89,23 +98,30 @@
     "Application.GraphBasicExamples.executor": "Run",
     "Application.GraphsBasics.executor": "Run",
     "Application.HOFsANDCurried.executor": "Run",
+    "Application.HandleException_V2.executor": "Run",
     "Application.HighLevelExercise.executor": "Run",
     "Application.HighLevelIntro.executor": "Run",
     "Application.HigherLevelExercise_2.executor": "Run",
     "Application.HigherOrderExample.executor": "Run",
     "Application.ImplicitExample.executor": "Run",
     "Application.InterviewTest.executor": "Run",
+    "Application.LargestNumberInAnArray.executor": "Run",
     "Application.LeedCode4V1.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListPatternMatching.executor": "Run",
     "Application.LongestSubString.executor": "Run",
     "Application.LongestSubstringPointers.executor": "Debug",
     "Application.LowLevelAPI.executor": "Run",
     "Application.LowLevelRest.executor": "Run",
     "Application.MainAsk.executor": "Run",
+    "Application.MainExecutor.executor": "Run",
     "Application.MapDemo.executor": "Run",
     "Application.MapFlatMapAndFor.executor": "Run",
     "Application.MarshallingJson.executor": "Run",
     "Application.MaterializingRecap.executor": "Run",
     "Application.MaterializingStream.executor": "Run",
+    "Application.MaximumSubarray.executor": "Run",
+    "Application.MoveZeroToEnd.executor": "Run",
     "Application.OOBasics.executor": "Run",
     "Application.OpenGraphs.executor": "Run",
     "Application.OperatorFusion.executor": "Run",
@@ -119,6 +135,8 @@
     "Application.PublishMessage.executor": "Run",
     "Application.Recursion.executor": "Run",
     "Application.RestartSourceExample.executor": "Run",
+    "Application.ReverseInteger_V1.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "Application.RouterExample.executor": "Run",
     "Application.RouterExample_2.executor": "Run",
     "Application.RouterPoolExample.executor": "Run",
@@ -128,13 +146,16 @@
     "Application.ScalaRecapStream.executor": "Run",
     "Application.SensorDataManagement.executor": "Run",
     "Application.Sequence.executor": "Run",
+    "Application.StackExample.executor": "Run",
     "Application.StringOperations.executor": "Run",
     "Application.SubscribeMessage.executor": "Run",
     "Application.Supervision.executor": "Run",
     "Application.TestDemo.executor": "Run",
     "Application.ThrottleExample.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.TwoSumRecap.executor": "Run",
     "Application.UserSessionManager.executor": "Run",
+    "Application.WithTimerBehaviour.executor": "Run",
     "Application.WorkerActorExample.executor": "Run",
     "Application.findEachSentenceCount.executor": "Run",
     "Application.scalabasics.ScalaBasicCode.executor": "Run",
@@ -142,6 +163,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ScalaTest.RouteDSLSpec.A digital library backend should One more way manually extracting the entity.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should Test case using route.seal.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should filter the books by the author.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should insert a book to the database.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should return a book by calling endpoint with the id in the path.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should return a book for given query parameter.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should return all the books in the library.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should should not accept delete method.executor": "Run",
+    "ScalaTest.RouteDSLSpec.A digital library backend should what status return when we reject.executor": "Run",
+    "ScalaTest.RouteDSLSpec.executor": "Run",
     "git-widget-placeholder": "review",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/My-Projects/scala-snippet",
@@ -156,13 +187,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MarshallingJson">
-    <configuration name="DirectiveBreakDown" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.DirectiveBreakDown" />
+  <component name="RunManager" selected="Application.MainExecutor">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ArrayExample" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="http.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighLevelExercise" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.HighLevelExercise" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearch" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="http.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighLevelIntro" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.HighLevelIntro" />
+    <configuration name="BinarySearchDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearchDemo" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="http.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,25 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherLevelExercise_2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.HigherLevelExercise_2" />
+    <configuration name="MainExecutor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MainExecutor" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="http.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MarshallingJson" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="http.MarshallingJson" />
-      <module name="hello-akka.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="http.*" />
+          <option name="PATTERN" value="akkatypedactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,13 +246,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RouteDSLSpec.A digital library backend should what status return when we reject" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="hello-akka.main" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
+      <option name="testClassPath" value="http.RouteDSLSpec" />
+      <option name="testName" value="A digital library backend should what status return when we reject" />
+      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MarshallingJson" />
-        <item itemvalue="Application.HigherLevelExercise_2" />
-        <item itemvalue="Application.HighLevelExercise" />
-        <item itemvalue="Application.DirectiveBreakDown" />
-        <item itemvalue="Application.HighLevelIntro" />
+        <item itemvalue="Application.MainExecutor" />
+        <item itemvalue="Application.BinarySearchDemo" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="ScalaTest.RouteDSLSpec.A digital library backend should what status return when we reject" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +320,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.scalatest.exceptions.TestFailedException" package="org.scalatest.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="j" language="JAVA" />

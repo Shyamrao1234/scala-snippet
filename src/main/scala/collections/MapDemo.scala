@@ -10,6 +10,7 @@ object MapDemo extends App {
     case Some(value) => ""
   }
 
+  map(1)
 
 
 }

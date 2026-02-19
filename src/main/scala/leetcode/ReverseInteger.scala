@@ -1,5 +1,7 @@
 package leetcode
 
+import scala.runtime.Nothing$
+
 object ReverseInteger extends App {
 
 
@@ -21,3 +23,50 @@ object ReverseInteger extends App {
   println(Int.MaxValue)
 
 }
+
+object ReverseInteger_V1 extends App {
+
+
+  def reverseInteger(number: Int) = {
+    var n = number
+    var rev = 0
+    while (n > 0) {
+      val lastDidit = n % 10
+      rev = (rev * 10) + lastDidit
+      n = n/10
+    }
+    rev
+  }
+
+  def reverIntWithRecursion(num: Int, rev: Int=0):Int = {
+    if (num <= 0) {
+      rev
+    } else {
+      reverIntWithRecursion(num / 10, (rev * 10) + num % 10)
+    }
+  }
+  println(reverIntWithRecursion(123))
+
+  println(reverseInteger(1234))
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

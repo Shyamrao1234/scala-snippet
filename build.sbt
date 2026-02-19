@@ -33,7 +33,8 @@ libraryDependencies ++= Seq(
   //akka http
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
-  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion
+  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion,
+  "org.scalatest" %% "scalatest" % "3.0.5"
   //"org.apache.kafka" %% "kafka" % "3.6.0", // Core Kafka
   //"org.apache.kafka" % "kafka-clients" % "3.6.0" // Kafka client library
 )
