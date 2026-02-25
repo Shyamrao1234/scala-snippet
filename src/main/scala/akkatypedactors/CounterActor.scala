@@ -71,9 +71,7 @@ object Manager {
         Behaviors.same
       case GetValue         =>
         counterOpt.foreach { counter =>
-          context.ask(counter, (replyTo: ActorRef[CounterActor.Result]) =>
-            CounterActor.GetValue(replyTo)
-          ) {
+          context.ask(counter, CounterActor.GetValue(_)) {
             case Success(response) => WrappedCounterResponse(response)
             case Failure(_)        => CounterRequestFailed
           }

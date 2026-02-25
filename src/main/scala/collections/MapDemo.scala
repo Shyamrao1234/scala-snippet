@@ -1,16 +1,30 @@
 package collections
 
+import scala.collection.mutable
+
 object MapDemo extends App {
 
+  /**
+   * order not maintain
+   *
+   */
+  val map = mutable.HashMap[String, Any]()
+  map(null) = 10
+  map("A") = 10
+  map("B") = 20
 
-  val map = scala.collection.mutable.Map(1 -> "A", 2 -> "B")
+  /**
+   *  order is maintained here
+   */
 
-  map.put(1,"C") match {
-    case None => println("None")
-    case Some(value) => ""
-  }
+  val linkedHashMap=mutable.LinkedHashMap[String,Any]()
 
-  map(1)
+  linkedHashMap("a") = 10
+  linkedHashMap("b") = 20
+  linkedHashMap("c") = 30
 
+  println(linkedHashMap.head)
+  val str= "*"
 
+  println(str(0).isLetterOrDigit)
 }

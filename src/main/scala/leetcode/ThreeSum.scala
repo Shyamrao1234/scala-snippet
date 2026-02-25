@@ -5,13 +5,13 @@ import scala.concurrent.Future
 object ThreeSum {
   def threeSum(nums: Array[Int]): List[List[Int]] = {
     val sorted = nums.sorted
-    val n = sorted.length
+    val n      = sorted.length
     var result = List[List[Int]]()
 
     for (i <- 0 until n - 2) {
       // Skip duplicate first elements
       if (i == 0 || sorted(i) != sorted(i - 1)) {
-        var left = i + 1
+        var left  = i + 1
         var right = n - 1
 
         while (left < right) {
@@ -44,16 +44,44 @@ object ThreeSum {
   }
 
   def main(args: Array[String]): Unit = {
-    val nums = Array(-1, 0, 1, 2, -1, -4)
+    val nums     = Array(-1, 0, 1, 2, -1, -4)
     val triplets = threeSum(nums)
     println(triplets.map(_.mkString("[", ", ", "]")).mkString(", "))
   }
 }
 
 
-object ThredDemo extends App{
+object ThreeSum_V2 extends App {
 
 
-  Thread.sleep(10000)
+  def findThreeSum(array: Array[Int]) = {
+    val sortedArray = array.sorted
+    val result      = scala.collection.mutable.ListBuffer[List[(Int,Int,Int)]]()
+
+    for (i <- 0 to sortedArray.length - 2) {
+      if (i == 0 || sortedArray(i) != sortedArray(i - 1)) {
+        var low  = i + 1
+        var high = sortedArray.length - 1
+        while (low < high) {
+          val sum = sortedArray(low) + sortedArray(high) + sortedArray(i)
+          if (sum == 0) {
+            result += List((sortedArray(low) ,sortedArray(high) , sortedArray(i)))
+            while (low < high && sortedArray(low) == sortedArray(low + 1)) low += 1
+            while (low < high && sortedArray(high) == sortedArray(high - 1)) high -= 1
+            low += 1
+            high -= 1
+          } else if (sum < 0) {
+            low += 1
+          } else {
+            high -= 1
+          }
+        }
+      }
+    }
+
+    result.foreach(println)
+  }
+
+  findThreeSum(Array(-1, 0, 1, 2, -1, -4))
 
 }
