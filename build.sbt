@@ -14,7 +14,7 @@ scalaVersion := "2.12.14"
 
 val akkaStreamKafkaVersion = "2.0.4"
 val alpakkaMqttVersion = "2.0.1"
-val akkaHttpVersion = "10.1.7"
+val akkaHttpVersion = "10.2.10"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.6.20"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % "2.6.20"

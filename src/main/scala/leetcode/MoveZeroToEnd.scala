@@ -20,5 +20,4 @@ object MoveZeroToEnd extends App {
   execute(Array(0,1,2,0,3)).foreach(print)
 
 
-
 }

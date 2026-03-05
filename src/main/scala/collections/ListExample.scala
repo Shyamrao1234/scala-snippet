@@ -12,4 +12,5 @@ object ListExample extends App{
   println(list ::: list)
 
 
+
 }

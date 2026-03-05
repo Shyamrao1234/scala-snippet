@@ -1,4 +1,4 @@
-package leetcode.arrays
+package leetcode.arrays.twopointer
 
 /**
  * Created by Shyamrao on Feb 25, 2026.

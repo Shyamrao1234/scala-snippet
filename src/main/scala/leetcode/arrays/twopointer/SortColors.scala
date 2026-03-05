@@ -1,4 +1,4 @@
-package leetcode.arrays
+package leetcode.arrays.twopointer
 
 /**
  * Created by Shyamrao on Feb 21, 2026.
@@ -12,7 +12,7 @@ object SortColors extends App {
     var mid  = 0
     var high = array.length - 1
 
-    while (low <= high) {
+    while (mid <= high) {
       if (array(mid) == 0) {
         array(mid) = array(low)
         array(low) = 0

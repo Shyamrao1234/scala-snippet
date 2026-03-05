@@ -8,9 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/MapDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/ReverseInteger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/ReverseInteger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/PatternMatching.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/MoveZeroToEnd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/MoveZeroToEnd.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/RemoveDuplicates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/SortColors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/SortColors.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/ThreeNumberSum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/ThreeNumberSum.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/TwoNumberSum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/TwoNumberSum.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/OrderingExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/OrderingExamples.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
       <list>
         <option value="package-info" />
         <option value="Package Object" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -79,8 +83,13 @@
     "Application.BackPressureExample.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BinarySearchDemo.executor": "Run",
+    "Application.BlockingExample.executor": "Run",
+    "Application.BreakLoopExamples.executor": "Run",
     "Application.CallByValue.executor": "Run",
     "Application.ChatRoomSystem.executor": "Run",
+    "Application.CodeSnippet_1.executor": "Run",
+    "Application.CodeSnippet_2.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
     "Application.CounterRaceConditionSolve.executor": "Run",
     "Application.Custom.executor": "Run",
     "Application.DigitExtraction.executor": "Run",
@@ -120,11 +129,14 @@
     "Application.MarshallingJson.executor": "Run",
     "Application.MaterializingRecap.executor": "Run",
     "Application.MaterializingStream.executor": "Run",
+    "Application.MaxConsecutiveOnes.executor": "Run",
+    "Application.MaximumSubArray.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
     "Application.OOBasics.executor": "Run",
     "Application.OpenGraphs.executor": "Run",
     "Application.OperatorFusion.executor": "Run",
+    "Application.OrderHttpRoute.executor": "Run",
     "Application.OrderingExamples.executor": "Run",
     "Application.PartialFunction.executor": "Run",
     "Application.PatternEveryWhere.executor": "Run",
@@ -134,6 +146,7 @@
     "Application.Practice.executor": "Run",
     "Application.PublishMessage.executor": "Run",
     "Application.Recursion.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.RestartSourceExample.executor": "Run",
     "Application.ReverseInteger_V1.executor": "Run",
     "Application.ReverseString.executor": "Run",
@@ -146,20 +159,27 @@
     "Application.ScalaRecapStream.executor": "Run",
     "Application.SensorDataManagement.executor": "Run",
     "Application.Sequence.executor": "Run",
+    "Application.SortColors.executor": "Run",
     "Application.StackExample.executor": "Run",
     "Application.StringOperations.executor": "Run",
     "Application.SubscribeMessage.executor": "Run",
     "Application.Supervision.executor": "Run",
+    "Application.TestConnectionPool.executor": "Run",
     "Application.TestDemo.executor": "Run",
+    "Application.ThreeNumberSum.executor": "Run",
+    "Application.ThreeSum_V2.executor": "Run",
     "Application.ThrottleExample.executor": "Run",
+    "Application.TwoNumberSum.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumRecap.executor": "Run",
     "Application.UserSessionManager.executor": "Run",
     "Application.WithTimerBehaviour.executor": "Run",
     "Application.WorkerActorExample.executor": "Run",
     "Application.findEachSentenceCount.executor": "Run",
+    "Application.isPalindrome.executor": "Run",
     "Application.scalabasics.ScalaBasicCode.executor": "Run",
     "Application.test.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -187,13 +207,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainExecutor">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ArrayExample" />
+  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+    <configuration name="BreakLoopExamples" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="oopsbasic.BreakLoopExamples" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="oopsbasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearch" />
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.ContainerWithMostWater" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.arrays.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearchDemo" />
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.sliddingwindow.MaxConsecutiveOnes" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.arrays.sliddingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +247,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainExecutor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akkatypedactors.MainExecutor" />
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.sliddingwindow.MaximumSubArray" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akkatypedactors.*" />
+          <option name="PATTERN" value="leetcode.arrays.sliddingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.SortColors" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,43 +279,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RouteDSLSpec.A digital library backend should what status return when we reject" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.main" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="testClassPath" value="http.RouteDSLSpec" />
-      <option name="testName" value="A digital library backend should what status return when we reject" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainExecutor" />
-        <item itemvalue="Application.BinarySearchDemo" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.ArrayExample" />
-        <item itemvalue="ScalaTest.RouteDSLSpec.A digital library backend should what status return when we reject" />
+        <item itemvalue="Application.MaxConsecutiveOnes" />
+        <item itemvalue="Application.BreakLoopExamples" />
+        <item itemvalue="Application.MaximumSubArray" />
+        <item itemvalue="Application.ContainerWithMostWater" />
+        <item itemvalue="Application.SortColors" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +329,16 @@
           <properties class="org.scalatest.exceptions.TestFailedException" package="org.scalatest.exceptions" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
