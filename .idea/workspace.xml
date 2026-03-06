@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/collections/ListExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/MoveZeroToEnd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/MoveZeroToEnd.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/RemoveDuplicates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/SortColors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/SortColors.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/ThreeNumberSum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/ThreeNumberSum.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/TwoNumberSum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/TwoNumberSum.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/oopsbasic/OrderingExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/oopsbasic/OrderingExamples.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +161,7 @@
     "Application.ThreeNumberSum.executor": "Run",
     "Application.ThreeSum_V2.executor": "Run",
     "Application.ThrottleExample.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
     "Application.TwoNumberSum.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumRecap.executor": "Run",
@@ -207,7 +200,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.TrappingRainWater">
     <configuration name="BreakLoopExamples" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="oopsbasic.BreakLoopExamples" />
       <module name="hello-akka.main" />
@@ -260,8 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.SortColors" />
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.twopointer.TrappingRainWater" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
@@ -281,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.BreakLoopExamples" />
         <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.SortColors" />
       </list>
     </recent_temporary>
   </component>
