@@ -5,7 +5,8 @@ import akka.http.scaladsl.model.{StatusCodes, Uri}
 import akka.http.scaladsl.server.{MethodRejection, Route}
 import akka.http.scaladsl.testkit.ScalatestRouteTest
 import akka.util.ByteString
-import org.scalatest.{Matchers, WordSpec, stats}
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpecLike
 import spray.json._
 
 import scala.concurrent.Await
@@ -17,7 +18,10 @@ trait BookJsonProtocol extends DefaultJsonProtocol {
   implicit val bookJsonFormat = jsonFormat3(Book)
 }
 
-class RouteDSLSpec extends WordSpec with Matchers with ScalatestRouteTest with BookJsonProtocol {
+class RouteDSLSpec extends AnyWordSpecLike
+  with Matchers
+  with ScalatestRouteTest
+  with BookJsonProtocol {
 
   import RouteDSLSpec._
 
@@ -43,10 +47,10 @@ class RouteDSLSpec extends WordSpec with Matchers with ScalatestRouteTest with B
         response.status shouldBe StatusCodes.OK
 
         val strictEntity = response.entity.toStrict(2.seconds)
-        val bookOpt = strictEntity.map { strict =>
+        val bookOpt      = strictEntity.map { strict =>
           strict.data.utf8String.parseJson.convertTo[Option[Book]]
         }
-        val book = Await.result(bookOpt, 2.seconds)
+        val book         = Await.result(bookOpt, 2.seconds)
         book shouldBe Some(Book(1, "Harper Lee", "To Kill a Mockingbird"))
       }
     }
@@ -58,7 +62,7 @@ class RouteDSLSpec extends WordSpec with Matchers with ScalatestRouteTest with B
 
         val bookFutureOpt = response.entity.dataBytes.runFold(ByteString.empty)(_ ++ _)
           .map(_.utf8String.parseJson.convertTo[Option[Book]])
-        val bookOpt = Await.result(bookFutureOpt, 2.seconds)
+        val bookOpt       = Await.result(bookFutureOpt, 2.seconds)
         bookOpt shouldBe Some(Book(1, "Harper Lee", "To Kill a Mockingbird"))
       }
     }
