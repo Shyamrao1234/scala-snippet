@@ -1,6 +1,5 @@
 package akkastreams
 
-import actors.ExampleOne.SimpleActor
 import akka.actor.{Actor, ActorSystem, Props}
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Flow, Sink, Source}

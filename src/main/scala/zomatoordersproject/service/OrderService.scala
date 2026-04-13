@@ -1,7 +1,7 @@
 package zomatoordersproject.service
 
 import akka.actor.typed.Scheduler
-import zomatoordersproject.actors.{OrderGuardian, OrderManager}
+import zomatoordersproject.actors.{OrderGuardian}
 import akka.actor.typed.ActorRef
 import akka.actor.typed.scaladsl.AskPattern._
 import akka.util.Timeout

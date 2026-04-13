@@ -15,6 +15,7 @@ val akkaStreamKafkaVersion = "2.0.4"
 val alpakkaMqttVersion     = "2.0.1"
 val akkaHttpVersion        = "10.2.10"
 val akkaTypedVersion       = "2.6.20"
+val catsVersion            = "2.1.1"
 
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % akkaTypedVersion
@@ -39,7 +40,27 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.17",
 
 
+  //cats library
+  "org.typelevel" %% "cats-core" % catsVersion,
+
+
+  //akka persistence
+  "com.typesafe.akka" %% "akka-persistence-typed" % akkaTypedVersion,
+  // Robust serialization for Events and State (Production Standard)
+  "com.typesafe.akka" %% "akka-serialization-jackson" % akkaTypedVersion,
+
+  // In-memory journal for local testing
+  "com.typesafe.akka" %% "akka-persistence-testkit" % akkaTypedVersion % Test,
+
+
 
   //"org.apache.kafka" %% "kafka" % "3.6.0", // Core Kafka
   //"org.apache.kafka" % "kafka-clients" % "3.6.0" // Kafka client library
+)
+val jacksonVersion         = "2.11.4" // Added for the Jackson fix
+dependencyOverrides ++= Seq(
+  "com.fasterxml.jackson.core" % "jackson-core" % jacksonVersion,
+  "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
+  "com.fasterxml.jackson.core" % "jackson-annotations" % jacksonVersion,
+  "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion
 )
