@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-11-2025_08_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-11-2025_08_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/http/RouteDSLSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/http/RouteDSLSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scalabasics/StringOperations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scalabasics/StringOperations.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-snippet/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/zomatoordersproject/simulation/SimulateRoute.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/zomatoordersproject/simulation/SimulateRoute.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +45,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="hello-akka" type="f1a62948:ProjectNode" />
+                <item name="scala-snippet" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -92,6 +106,7 @@
     "Application.DigitExtraction.executor": "Run",
     "Application.DirectiveBreakDown.executor": "Run",
     "Application.Example1.executor": "Run",
+    "Application.ExampleOne.executor": "Run",
     "Application.ExceptionAndErrors.executor": "Run",
     "Application.ExecutionContextExamples.executor": "Run",
     "Application.ExecutionExample2.executor": "Run",
@@ -134,6 +149,7 @@
     "Application.MaximumSubarray.executor": "Run",
     "Application.MinimumSizeSubArray.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
+    "Application.MoveZerosToLeft.executor": "Run",
     "Application.OOBasics.executor": "Run",
     "Application.OccurenceOFEach.executor": "Run",
     "Application.OpenGraphs.executor": "Run",
@@ -189,8 +205,11 @@
     "Application.scalabasics.ScalaBasicCode.executor": "Run",
     "Application.test.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ScalaTest.EchoTest.Actor Test should Test Echo file.executor": "Run",
     "ScalaTest.OrderRoutesSpec.Order API should Create an order and get the same order.executor": "Run",
@@ -209,12 +228,15 @@
     "ScalaTest.RouteDSLSpec.A digital library backend should should not accept delete method.executor": "Run",
     "ScalaTest.RouteDSLSpec.A digital library backend should what status return when we reject.executor": "Run",
     "ScalaTest.RouteDSLSpec.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "ScalaTest",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest": "",
     "git-widget-placeholder": "review",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/My-Projects/scala-snippet",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/source/scala-snippet",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -234,7 +256,33 @@
       <recent name="zomatoordersproject.http" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.OrderRoutesSpec.Order API should create an order (2)">
+  <component name="RunManager" selected="Application.MoveZerosToLeft">
+    <configuration name="ExampleOne" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="actors.ExampleOne" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZerosToLeft" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.twopointer.MoveZerosToLeft" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.twopointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Scala-Snippet" />
       <method v="2">
@@ -250,6 +298,7 @@
       <option name="classpathModifications">
         <list />
       </option>
+      <option name="defaultTargetName" />
       <option name="envFilePaths">
         <list />
       </option>
@@ -271,37 +320,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRoutesSpec.Order API should create an order (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_out="true" show_console_on_std_err="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" value="1.8" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="jrePath" value="1.8" />
-      <option name="shortenClasspath" value="MANIFEST" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderRoutesSpec.Order API should create an order (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="hello-akka.test" />
       <option name="VMParameters" value="" />
@@ -311,6 +329,7 @@
       <option name="classpathModifications">
         <list />
       </option>
+      <option name="defaultTargetName" />
       <option name="envFilePaths">
         <list />
       </option>
@@ -327,37 +346,6 @@
       <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
       <option name="shortenClasspath" value="NONE" />
       <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderRoutesSpec.Order API should create an order (3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="shortenClasspath" value="NONE" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="testName" value="Order API should create an order" />
       <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -372,6 +360,7 @@
       <option name="classpathModifications">
         <list />
       </option>
+      <option name="defaultTargetName" />
       <option name="envFilePaths">
         <list />
       </option>
@@ -403,6 +392,7 @@
       <option name="classpathModifications">
         <list />
       </option>
+      <option name="defaultTargetName" />
       <option name="envFilePaths">
         <list />
       </option>
@@ -432,6 +422,7 @@
       <option name="classpathModifications">
         <list />
       </option>
+      <option name="defaultTargetName" />
       <option name="envFilePaths">
         <list />
       </option>
@@ -454,21 +445,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MoveZerosToLeft" />
+      <item itemvalue="Application.ExampleOne" />
       <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (2)" />
       <item itemvalue="ScalaTest.Unnamed" />
-      <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (3)" />
-      <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (1)" />
       <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order&#10;Order API should Create an order and get the same order" />
       <item itemvalue="ScalaTest.EchoTest.Actor Test should Test Echo file" />
       <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (3)" />
-        <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (1)" />
-        <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order&#10;Order API should Create an order and get the same order" />
-        <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order" />
-        <item itemvalue="ScalaTest.EchoTest.Actor Test should Test Echo file" />
+        <item itemvalue="Application.MoveZerosToLeft" />
+        <item itemvalue="Application.ExampleOne" />
       </list>
     </recent_temporary>
   </component>
@@ -494,6 +482,9 @@
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
@@ -515,59 +506,6 @@
           <properties class="org.scalatest.exceptions.TestFailedException" package="org.scalatest.exceptions" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/leetcode/arrays/twopointer/RemoveDuplicates.scala</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/http/OrderRoute.scala</url>
-          <line>25</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/http/OrderRoute.scala</url>
-          <line>26</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderActor.scala</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderActor.scala</url>
-          <line>29</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderActor.scala</url>
-          <line>30</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderGuardian.scala</url>
-          <line>41</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderGuardian.scala</url>
-          <line>42</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/zomatoordersproject/actors/OrderGuardian.scala</url>
-          <line>43</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
