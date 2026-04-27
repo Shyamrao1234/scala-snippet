@@ -1,5 +1,7 @@
 package leetcode
 
+import scala.reflect.ClassTag
+
 object BinarySearch extends App {
 
 
@@ -8,7 +10,7 @@ object BinarySearch extends App {
    */
 
   def search(list: List[Int], target: Int): Int = {
-    var low = 0
+    var low  = 0
     var high = list.length - 1
     while (low < high) {
       var mid = low + (high - low) / 2
@@ -20,6 +22,18 @@ object BinarySearch extends App {
   }
 
 
-  println(search(List(1,2,3,4,5,6,7,8),4))
+  println(search(List(1, 2, 3, 4, 5, 6, 7, 8), 4))
+
+}
+
+
+object Deummyyee extends App {
+
+  private def execute[T:ClassTag](size: Int): Array[T] = {
+    new Array[T](size)
+  }
+
+  execute(10)
+
 
 }
