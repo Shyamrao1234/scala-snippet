@@ -18,3 +18,10 @@
 //
 //
 //}
+import scala.Predef
+
+object Arrayaaaaqqq extends App {
+
+  val array=new Array[Int](10)
+
+}

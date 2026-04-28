@@ -1,34 +1,421 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Order Processing System</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Orders Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #cb202d; /* Zomato Red */
+            --bg-color: #0f172a;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            
+            /* Status Colors */
+            --status-pending: #fbbf24;
+            --status-preparing: #3b82f6;
+            --status-out-for-delivery: #a855f7;
+            --status-delivered: #22c55e;
+            --status-cancelled: #ef4444;
+            --status-confirmed: #0ea5e9;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at 15% 50%, rgba(203, 32, 45, 0.15), transparent 25%),
+                              radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.15), transparent 25%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(to right, #fff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h1 span {
+            color: var(--primary);
+            -webkit-text-fill-color: var(--primary);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 2rem;
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: rgba(0,0,0,0.2);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            color: white;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(203, 32, 45, 0.2);
+        }
+
+        button {
+            width: 100%;
+            padding: 0.875rem;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background: #e02835;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(203, 32, 45, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+
+        /* Orders Grid */
+        .orders-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .order-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .order-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255,255,255,0.2);
+        }
+
+        .order-id {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .order-user {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .order-items {
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            color: #e2e8f0;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .status-PENDING { background: rgba(251, 191, 36, 0.15); color: var(--status-pending); border: 1px solid rgba(251, 191, 36, 0.3); }
+        .status-CONFIRMED { background: rgba(14, 165, 233, 0.15); color: var(--status-confirmed); border: 1px solid rgba(14, 165, 233, 0.3); }
+        .status-PREPARING { background: rgba(59, 130, 246, 0.15); color: var(--status-preparing); border: 1px solid rgba(59, 130, 246, 0.3); }
+        .status-OUT_FOR_DELIVERY { background: rgba(168, 85, 247, 0.15); color: var(--status-out-for-delivery); border: 1px solid rgba(168, 85, 247, 0.3); }
+        .status-DELIVERED { background: rgba(34, 197, 94, 0.15); color: var(--status-delivered); border: 1px solid rgba(34, 197, 94, 0.3); }
+        .status-CANCELLED { background: rgba(239, 68, 68, 0.15); color: var(--status-cancelled); border: 1px solid rgba(239, 68, 68, 0.3); }
+
+        .update-section {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        select {
+            flex: 1;
+            background: rgba(0,0,0,0.3);
+            color: white;
+            border: 1px solid var(--glass-border);
+            border-radius: 6px;
+            padding: 0.5rem;
+            font-size: 0.85rem;
+        }
+        
+        select option {
+            background: var(--bg-color);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            margin-top: 0;
+            width: auto;
+        }
+        
+        /* Auto Refresh Indicator */
+        .refresh-status {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--status-delivered);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+
+    </style>
+</head>
 <body>
 
-<h1>🛒 Order Processing System</h1>
+    <header>
+        <h1><span>Zomato</span> Orders API</h1>
+        <p style="color: var(--text-muted); margin-top: 0.5rem;">Scalable Backend Dashboard</p>
+    </header>
 
-<div class="box">
-  <h2>Place Order</h2>
+    <div class="container">
+        
+        <!-- Left Panel: Create Order -->
+        <aside>
+            <div class="glass-panel">
+                <h2>Create New Order</h2>
+                <form id="createForm">
+                    <div class="form-group">
+                        <label>Order ID (Unique)</label>
+                        <input type="text" id="orderId" placeholder="e.g. ORD-1001" required>
+                    </div>
+                    <div class="form-group">
+                        <label>User ID</label>
+                        <input type="text" id="userId" placeholder="e.g. USER-404" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Items (comma separated)</label>
+                        <input type="text" id="items" placeholder="Pizza, Coke, Fries" required>
+                    </div>
+                    <button type="submit">Place Order</button>
+                </form>
+            </div>
+        </aside>
 
-  <input id="orderId" placeholder="Enter Order ID">
-  <button onclick="placeOrder()">Place Order</button>
-</div>
+        <!-- Right Panel: Order List -->
+        <main>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <h2 style="margin-bottom: 0;">Live Orders</h2>
+                <div class="refresh-status">
+                    <div class="dot"></div> Auto-syncing (3s)
+                </div>
+            </div>
+            
+            <div class="orders-grid" id="ordersContainer">
+                <!-- Orders will be injected here via JS -->
+            </div>
+        </main>
+    </div>
 
-<div class="box">
-  <h2>Check Order Status</h2>
+    <script>
+        const API_BASE = '/orders';
+        const statuses = ["PENDING", "CONFIRMED", "PREPARING", "OUT_FOR_DELIVERY", "DELIVERED", "CANCELLED"];
 
-  <input id="statusId" placeholder="Enter Order ID">
-  <button onclick="checkStatus()">Check Status</button>
-</div>
+        // Format Date
+        function formatDate(isoString) {
+            if(!isoString) return 'Just now';
+            const date = new Date(isoString);
+            return date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+        }
 
-<div class="box">
-  <h2>Response</h2>
-  <p id="result">Waiting...</p>
-</div>
+        // Fetch & Render all orders
+        async function fetchOrders() {
+            try {
+                const res = await fetch(`${API_BASE}/all`);
+                if(!res.ok) throw new Error('Failed to fetch');
+                const orders = await res.json();
+                
+                // Sort by createdAt descending (newest first)
+                orders.sort((a,b) => new Date(b.createdAt) - new Date(a.createdAt));
+                
+                const container = document.getElementById('ordersContainer');
+                container.innerHTML = '';
+                
+                if(orders.length === 0) {
+                    container.innerHTML = '<p style="color:var(--text-muted)">No active orders found.</p>';
+                    return;
+                }
 
-<script src="app.js"></script>
+                orders.forEach(order => {
+                    const card = document.createElement('div');
+                    card.className = 'order-card';
+                    
+                    // Create Options for select
+                    const options = statuses.map(s => 
+                        `<option value="${s}" ${s === order.status ? 'selected' : ''}>${s.replace(/_/g, ' ')}</option>`
+                    ).join('');
 
+                    card.innerHTML = `
+                        <div class="status-badge status-${order.status}" style="position: absolute; top: 1.25rem; right: 1.25rem;">
+                            ${order.status.replace(/_/g, ' ')}
+                        </div>
+                        <div class="order-id">${order.orderId}</div>
+                        <div class="order-user">User: ${order.userId} &bull; ${formatDate(order.createdAt)}</div>
+                        <div class="order-items">
+                            <strong>Items:</strong> ${order.items.join(', ')}
+                        </div>
+                        
+                        <div class="update-section">
+                            <select id="status-${order.orderId}">
+                                ${options}
+                            </select>
+                            <button class="btn-sm" onclick="updateOrder('${order.orderId}')">Update</button>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            } catch (err) {
+                console.error("Error fetching orders:", err);
+            }
+        }
+
+        // Create Order
+        document.getElementById('createForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                orderId: document.getElementById('orderId').value,
+                userId: document.getElementById('userId').value,
+                items: document.getElementById('items').value.split(',').map(i => i.trim())
+            };
+            
+            try {
+                const res = await fetch(API_BASE, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                
+                if(res.ok) {
+                    document.getElementById('createForm').reset();
+                    // Generate random ID for next order
+                    document.getElementById('orderId').value = 'ORD-' + Math.floor(Math.random()*10000);
+                    fetchOrders(); // immediate refresh
+                } else {
+                    const err = await res.json();
+                    alert(`Failed to create: ${err.message}`);
+                }
+            } catch (err) {
+                alert("Network error while creating order.");
+            }
+        });
+
+        // Update Order
+        async function updateOrder(orderId) {
+            const newStatus = document.getElementById(`status-${orderId}`).value;
+            try {
+                const res = await fetch(`${API_BASE}/update/${orderId}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ status: newStatus })
+                });
+                
+                if(res.ok) {
+                    fetchOrders(); // immediate refresh
+                } else {
+                    const err = await res.json();
+                    alert(`Failed to update: ${err.message}`);
+                }
+            } catch (err) {
+                alert("Network error while updating order.");
+            }
+        }
+
+        // Initialize and poll every 3 seconds
+        document.getElementById('orderId').value = 'ORD-' + Math.floor(Math.random()*10000);
+        fetchOrders();
+        setInterval(fetchOrders, 3000);
+
+    </script>
 </body>
 </html>
