@@ -21,7 +21,7 @@ val catsVersion            = "2.1.1"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % akkaTypedVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % akkaTypedVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaTypedVersion % Test
-addSbtPlugin("io.gatling" % "gatling-sbt" % "4.5.0")
+
 val jodaDateTime = "joda-time" % "joda-time" % "2.9.3"
 
 libraryDependencies ++= Seq(
@@ -52,7 +52,9 @@ libraryDependencies ++= Seq(
   // In-memory journal for local testing
   "com.typesafe.akka" %% "akka-persistence-testkit" % akkaTypedVersion % Test,
 
-
+  // Gatling Load Testing Libraries (Version 3.4.2 is the last version supporting Scala 2.12)
+  "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.4.2" % Test,
+  "io.gatling"            % "gatling-test-framework"    % "3.4.2" % Test
 
   //"org.apache.kafka" %% "kafka" % "3.6.0", // Core Kafka
   //"org.apache.kafka" % "kafka-clients" % "3.6.0" // Kafka client library

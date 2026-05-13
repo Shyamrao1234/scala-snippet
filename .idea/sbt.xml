@@ -9,11 +9,11 @@
         <option name="modules">
           <set>
             <option value="D:\source\scala-snippet" />
-            <option value="D:\source\scala-snippet\project" />
           </set>
         </option>
         <option name="sbtVersion" value="1.9.8" />
       </SbtProjectSettings>
     </option>
+    <option name="maximumHeapSize" value="7400" />
   </component>
 </project>
