@@ -56,6 +56,19 @@ object longestConsecutive extends App {
     num
   }
 
+  val array = new Array(10)
+
+
+}
+
+
+object LongestNonRepeatingSubString extends App {
+
+
+  private def execute(str: String) = {
+
+  }
+
 
 }
 

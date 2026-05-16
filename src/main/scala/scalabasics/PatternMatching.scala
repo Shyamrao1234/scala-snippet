@@ -1,5 +1,6 @@
 package scalabasics
 
+import scala.reflect.ClassTag
 import scala.util.Random
 
 object PatternMatching extends App {
@@ -109,5 +110,26 @@ object ListPatternMatching extends App {
 
 
   println(flatten(List(1, 2, List(3, 4),List(5, 6))))
+
+}
+
+
+object TypeEraser extends App{
+
+
+  val list=List[Int](1,2,3,4)
+
+
+  def check[T:ClassTag](list:List[T]) = {
+    list match {
+      case l1:List[String] => println("list of string")
+      case l2:List[Int] => println("list of Int")
+      case _ => println("Unknown")
+    }
+  }
+
+  check(list)
+
+
 
 }

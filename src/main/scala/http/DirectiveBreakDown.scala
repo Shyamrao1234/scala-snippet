@@ -8,7 +8,7 @@ import akka.stream.ActorMaterializer
 
 object DirectiveBreakDown extends App {
 
-  implicit val system = ActorSystem("DirectivesBreakDown")
+  implicit val system       = ActorSystem("DirectivesBreakDown")
   implicit val materializer = ActorMaterializer()
 
   import akka.http.scaladsl.server.Directives._
@@ -60,90 +60,80 @@ object DirectiveBreakDown extends App {
     }
   }
 
-    /**
-     * Extract Query parameter
-     */
+  /**
+   * Extract Query parameter
+   */
 
-    // api/item?id=36
-    val queryParamExtractRoute = {
-      path("api" / "item") {
-        parameter("id".as[Int]) { (itemId: Int) =>
-          println(s"I've extracted the ID as ${itemId}")
-          complete(StatusCodes.OK)
-        }
+  // api/item?id=36
+  val queryParamExtractRoute = {
+    path("api" / "item") {
+      parameter("id".as[Int]) { (itemId: Int) =>
+        println(s"I've extracted the ID as ${itemId}")
+        complete(StatusCodes.OK)
+      }
+    }
+  }
+
+  /** *
+   * Extract Http Request
+   */
+
+  val extarctHttpRequest: Route =
+    path("myEndPoint") {
+      extractRequest { (request: HttpRequest) =>
+        println("request ---" + request)
+        complete(StatusCodes.OK)
       }
     }
 
-      /** *
-       * Extract Http Request
-       */
 
-      val extarctHttpRequest: Route =
-        path("myEndPoint") {
-          extractRequest { (request: HttpRequest) =>
-            println("request ---" + request)
-            complete(StatusCodes.OK)
-          }
-        }
-
-
-      /**
-       *
-       * Type #3 : composite direction
-       */
-      val simpleNestedRoute =
-        path("api" / "item") {
-          get {
-            complete(StatusCodes.OK)
-          }
-        }
-
-      val compactSimpleNested = (path("api" / "item") & get) {
+  /**
+   *
+   * Type #3 : composite direction
+   */
+  val simpleNestedRoute =
+    path("api" / "item") {
+      get {
         complete(StatusCodes.OK)
       }
+    }
 
-      val compactExtractRequst =
-        (path("controlEndPoint") & extractRequest & extractLog) { (request, log) =>
-          complete(StatusCodes.OK)
-        }
+  val compactSimpleNested = (path("api" / "item") & get) {
+    complete(StatusCodes.OK)
+  }
 
-      /**
-       * using or
-       */
-      val dryRoute = {
-        (path("about") | path("aboutUs")) {
-          complete(StatusCodes.OK)
-        }
-      }
+  val compactExtractRequst =
+    (path("controlEndPoint") & extractRequest & extractLog) { (request, log) =>
+      complete(StatusCodes.OK)
+    }
 
-
-
-
-
-        val blogIdRoute = {
-          (path(IntNumber) | parameter("postId".as[Int])) { (id: Int) =>
-            complete(StatusCodes.OK)
-          }
-        }
-
-          val failedRoute =
-            path("notSupported") {
-              failWith(new RuntimeException("Unsupported"))
-            }
-
-          val routeWithRejection =
-            path("home") {
-              reject
-            }
+  /**
+   * using or
+   */
+  val dryRoute = {
+    (path("about") | path("aboutUs")) {
+      complete(StatusCodes.OK)
+    }
+  }
 
 
+  val blogIdRoute = {
+    (path(IntNumber) | parameter("postId".as[Int])) { (id: Int) =>
+      complete(StatusCodes.OK)
+    }
+  }
+
+  val failedRoute =
+    path("notSupported") {
+      failWith(new RuntimeException("Unsupported"))
+    }
+
+  val routeWithRejection =
+    path("home") {
+      reject
+    }
 
 
-
-
-
-
-
-          Http().bindAndHandle(extarctHttpRequest, "localhost", 8080)
+  Http().bindAndHandle(extarctHttpRequest, "localhost", 8080)
 
 }
