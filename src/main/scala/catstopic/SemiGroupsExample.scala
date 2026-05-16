@@ -65,8 +65,6 @@ object SemiGroupsExample {
     println("***case class**" + reduceAll(listOfExpenses))
 
 
-   
-
   }
 
 }
@@ -74,11 +72,15 @@ object SemiGroupsExample {
 
 object SemiGroupPractice extends App {
 
-
-  import cats.Semigroup._
   import cats.instances.int._
 
   val intSemiGroup = Semigroup[Int]
-  println(in)
+  println(intSemiGroup.combine(2, 4))
+
+  import cats.syntax.semigroup._
+  private def reduceAll[T: Semigroup](list: List[T]) = {
+    list.reduce(_ |+| _)
+  }
+
 
 }
