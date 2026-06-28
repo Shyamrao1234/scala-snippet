@@ -68,3 +68,20 @@ object BinarySearchDemo extends App {
 
 
 }
+
+
+object ReverseUsingForLoop extends App {
+
+  private def execute(str:String) = {
+    val strBuilder= new StringBuilder()
+
+    for(char <- str.length-1 to 0 by -1){
+      strBuilder.append(str(char))
+    }
+
+    strBuilder
+  }
+
+  println(execute("shyam"))
+
+}

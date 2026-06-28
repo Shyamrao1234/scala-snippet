@@ -1,35 +1,35 @@
 package leetcode
 
-/**
- * Created by Shyamrao on Apr 17, 2026.
- */
-
-
-/** *
- *
- * Input: [[1,3], [2,6], [8,10], [15,18]]
- * Output: [[1,6], [8,10], [15,18]]
- *
- */
-
-
 object MergeIntervals extends App {
 
 
-  def mergeOverlappingIntervals(intervals: List[Array[Int]]) = {
-    val sortedIntervals = intervals.sortBy(innerList => innerList(0))
+  /**
+   *
+   * Array(Interval(1,4),Interval(2,6),Interval(7,9))
+   *
+   */
 
-    sortedIntervals.foldLeft(List.empty[Array[Int]]) { case (acc, current) =>
-      acc match {
-        case Nil          => List(current)
-        case ::(head, tl)if current(0) <= head(1) =>
-        Array(head(0),math.max(current(1),head(1))) :: tl
-        case _            => current :: acc
+   case class Interval(start: Int, end: Int)
+   private def execute(intervals: Array[Interval]) = {
+    val sortedIntervals = intervals.sortBy(_.start)
+
+    var merged = List(sortedIntervals.head)
+    for (i <- 1 until intervals.length) {
+      val lastMerged = merged.head
+      val current = sortedIntervals(i)
+      if (lastMerged.end >= current.start) {
+        val updatedInterval = Interval(lastMerged.start, Math.max(lastMerged.end, current.end))
+        merged = updatedInterval :: merged.tail
+      } else {
+        merged = current :: merged
       }
     }
+    merged.reverse
   }
 
 
-  mergeOverlappingIntervals(List(Array(1,3),Array(2,6),Array(8,10),Array(15,18))).reverse.map(_.foreach(print))
+  val listOfInterval=Array(Interval(1,4),Interval(2,6),Interval(7,8))
+  println("*****"+execute(listOfInterval))
+
 
 }

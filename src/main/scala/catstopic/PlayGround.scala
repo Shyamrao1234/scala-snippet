@@ -1,4 +1,6 @@
-package cats
+package catstopic
+
+import cats.Eval
 
 /**
  * Created by Shyamrao on Apr 06, 2026.
@@ -6,7 +8,7 @@ package cats
 
 object PlayGround extends App{
 
-  val meaningOfLife=Eval.later{
+  val meaningOfLife = Eval.later{
     println("Learning cats")
     42
   }

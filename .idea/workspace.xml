@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-11-2025_08_36_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20-11-2025_08_36__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8ede7014-5d69-4acd-8762-3a532c7188c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-snippet/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/zomatoordersproject/simulation/SimulateRoute.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/zomatoordersproject/simulation/SimulateRoute.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/catstopic/FunctorExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/catstopic/FunctorExample.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -42,227 +23,74 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="scala-snippet" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package-info" />
-        <option value="Package Object" />
-        <option value="HTML File" />
-        <option value="ScalaTest Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/Int.scala" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/PartialFunction.scala" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14-sources.jar!/scala/math/Ordering.scala" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2x4ijt7DOfG2kUR5e6W3jL7yt7p" />
+  <component name="ProjectId" id="3DGfO2F0y7lik8hm6dkRSojNJ1Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AkkaConfigurationDemo.executor": "Run",
-    "Application.AnonymousFunctions.executor": "Run",
-    "Application.ArrayExample.executor": "Run",
-    "Application.BackPressureExample.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BinarySearchDemo.executor": "Run",
-    "Application.BlockingExample.executor": "Run",
-    "Application.BreakLoopExamples.executor": "Run",
-    "Application.CallByValue.executor": "Run",
-    "Application.ChatRoomSystem.executor": "Run",
-    "Application.CodeSnippet_1.executor": "Run",
-    "Application.CodeSnippet_2.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.CounterRaceConditionSolve.executor": "Run",
-    "Application.Custom.executor": "Run",
-    "Application.DigitExtraction.executor": "Run",
-    "Application.DirectiveBreakDown.executor": "Run",
-    "Application.Example1.executor": "Run",
-    "Application.ExampleOne.executor": "Run",
-    "Application.ExceptionAndErrors.executor": "Run",
-    "Application.ExecutionContextExamples.executor": "Run",
-    "Application.ExecutionExample2.executor": "Run",
-    "Application.FindDuplicateElements.executor": "Run",
-    "Application.FindUniqueElements.executor": "Run",
-    "Application.FirstNonRepeatingChar.executor": "Run",
-    "Application.FirstPrinciple.executor": "Run",
-    "Application.FirstPrincipleRecap.executor": "Run",
-    "Application.Functions.executor": "Run",
-    "Application.GetterNSetter.executor": "Run",
-    "Application.GlobalContext.executor": "Run",
-    "Application.GraphBasicExamples.executor": "Run",
-    "Application.GraphsBasics.executor": "Run",
-    "Application.HOFsANDCurried.executor": "Run",
-    "Application.HandleException_V2.executor": "Run",
-    "Application.HighLevelExercise.executor": "Run",
-    "Application.HighLevelIntro.executor": "Run",
-    "Application.HigherLevelExercise_2.executor": "Run",
-    "Application.HigherOrderExample.executor": "Run",
-    "Application.ImplicitExample.executor": "Run",
-    "Application.InterviewTest.executor": "Run",
-    "Application.LargestNumberInAnArray.executor": "Run",
-    "Application.LeedCode4V1.executor": "Run",
-    "Application.ListExample.executor": "Run",
-    "Application.ListPatternMatching.executor": "Run",
-    "Application.LongestSubString.executor": "Run",
-    "Application.LongestSubstringPointers.executor": "Debug",
-    "Application.LowLevelAPI.executor": "Run",
-    "Application.LowLevelRest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainAsk.executor": "Run",
-    "Application.MainExecutor.executor": "Run",
-    "Application.MapDemo.executor": "Run",
-    "Application.MapFlatMapAndFor.executor": "Run",
-    "Application.MarshallingJson.executor": "Run",
-    "Application.MaterializingRecap.executor": "Run",
-    "Application.MaterializingStream.executor": "Run",
-    "Application.MaxConsecutiveOnes.executor": "Run",
-    "Application.MaximumSubArray.executor": "Run",
-    "Application.MaximumSubarray.executor": "Run",
-    "Application.MinimumSizeSubArray.executor": "Run",
-    "Application.MoveZeroToEnd.executor": "Run",
-    "Application.MoveZerosToLeft.executor": "Run",
-    "Application.OOBasics.executor": "Run",
-    "Application.OccurenceOFEach.executor": "Run",
-    "Application.OpenGraphs.executor": "Run",
-    "Application.OperatorFusion.executor": "Run",
-    "Application.OrderHttpRoute.executor": "Run",
-    "Application.OrderingExamples.executor": "Run",
-    "Application.PartialFunction.executor": "Run",
-    "Application.PatternEveryWhere.executor": "Run",
-    "Application.PatternMatching.executor": "Run",
-    "Application.Patterns.executor": "Run",
-    "Application.Play.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.PublishMessage.executor": "Run",
-    "Application.Recursion.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.RestartSourceExample.executor": "Run",
-    "Application.ReverseInteger_V1.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.RouterExample.executor": "Run",
-    "Application.RouterExample_2.executor": "Run",
-    "Application.RouterPoolExample.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.ScalaBasicCode.executor": "Run",
-    "Application.ScalaInterviewPractice.executor": "Run",
-    "Application.ScalaRecapStream.executor": "Run",
-    "Application.SchedulerDemo.executor": "Run",
-    "Application.SensorDataManagement.executor": "Run",
-    "Application.Sequence.executor": "Run",
-    "Application.SonyInterviewProgram.executor": "Run",
-    "Application.SortColors.executor": "Run",
-    "Application.StackExample.executor": "Run",
-    "Application.StringOperations.executor": "Run",
-    "Application.SubArrayProductLessThanK.executor": "Run",
-    "Application.SubscribeMessage.executor": "Run",
-    "Application.Supervision.executor": "Run",
-    "Application.TestConnectionPool.executor": "Run",
-    "Application.TestDemo.executor": "Run",
-    "Application.ThreeNumberSum.executor": "Run",
-    "Application.ThreeSum_V2.executor": "Run",
-    "Application.ThrottleExample.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.TwoNumberSum.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.TwoSumRecap.executor": "Run",
-    "Application.UserSessionManager.executor": "Run",
-    "Application.WithTimerBehaviour.executor": "Run",
-    "Application.WordFrequencyCounter.executor": "Run",
-    "Application.WorkerActorExample.executor": "Run",
-    "Application.Write1BRFile.executor": "Run",
-    "Application.findEachSentenceCount.executor": "Run",
-    "Application.isPalindrome.executor": "Run",
-    "Application.longestConsecutive.executor": "Run",
-    "Application.scalabasics.ScalaBasicCode.executor": "Run",
-    "Application.test.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ScalaTest.EchoTest.Actor Test should Test Echo file.executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should Create an order and get the same order.executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should create an order\nOrder API should Create an order and get the same order.executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should create an order (1).executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should create an order (2).executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should create an order (3).executor": "Run",
-    "ScalaTest.OrderRoutesSpec.Order API should create an order.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should One more way manually extracting the entity.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should Test case using route.seal.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should filter the books by the author.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should insert a book to the database.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should return a book by calling endpoint with the id in the path.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should return a book for given query parameter.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should return all the books in the library.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should should not accept delete method.executor": "Run",
-    "ScalaTest.RouteDSLSpec.A digital library backend should what status return when we reject.executor": "Run",
-    "ScalaTest.RouteDSLSpec.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "ScalaTest",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest": "",
-    "git-widget-placeholder": "review",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/source/scala-snippet",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Scala"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonoidExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayGround.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseUsingForLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemiGroupPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSumProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode26.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;review&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/source/scala-snippet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="akkatypedactors" />
-      <recent name="zomatoordersproject.http" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.MoveZerosToLeft">
-    <configuration name="ExampleOne" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ExampleOne" />
+}</component>
+  <component name="RunManager" selected="Application.FunctorExample">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catstopic.A" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="catstopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZerosToLeft" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.twopointer.MoveZerosToLeft" />
+    <configuration name="FunctorExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catstopic.FunctorExample" />
       <module name="hello-akka.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arrays.twopointer.*" />
+          <option name="PATTERN" value="catstopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,241 +111,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Scala-Snippet" />
+    <configuration name="MonoidExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="catstopic.MonoidExample" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="catstopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoTest.Actor Test should Test Echo file" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="defaultTargetName" />
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="testClassPath" value="akkatypedactors.EchoTest" />
-      <option name="testName" value="Actor Test should Test Echo file" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
+    <configuration name="TwoSumProblem" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.padhowithpratyush.TwoSumProblem" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.padhowithpratyush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRoutesSpec.Order API should create an order (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="defaultTargetName" />
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="shortenClasspath" value="NONE" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
+    <configuration name="leetcode26" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode26" />
+      <module name="hello-akka.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRoutesSpec.Order API should create an order" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" value="1.8" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="defaultTargetName" />
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="jrePath" value="1.8" />
-      <option name="shortenClasspath" value="CLASSPATH_FILE" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderRoutesSpec.Order API should create an order&#10;Order API should Create an order and get the same order" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="hello-akka.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="defaultTargetName" />
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="shortenClasspath" value="NONE" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="ScalaTestRunConfiguration" factoryName="ScalaTest" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="defaultTargetName" />
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <option name="shortenClasspath" value="NONE" />
-      <option name="testClassPath" value="zomatoordersproject.http.OrderRoutesSpec" />
-      <option name="workingDirectory" value="D:\My-Projects\scala-snippet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.MoveZerosToLeft" />
-      <item itemvalue="Application.ExampleOne" />
-      <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order (2)" />
-      <item itemvalue="ScalaTest.Unnamed" />
-      <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order&#10;Order API should Create an order and get the same order" />
-      <item itemvalue="ScalaTest.EchoTest.Actor Test should Test Echo file" />
-      <item itemvalue="ScalaTest.OrderRoutesSpec.Order API should create an order" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveZerosToLeft" />
-        <item itemvalue="Application.ExampleOne" />
+        <item itemvalue="Application.FunctorExample" />
+        <item itemvalue="Application.TwoSumProblem" />
+        <item itemvalue="Application.leetcode26" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.MonoidExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="ScalaProjectSettings">
-    <option name="autoRunDelay" value="1200" />
-    <option name="intInjectionMapping">
-      <map>
-        <entry key="xml" value="XML" />
-      </map>
-    </option>
     <option name="migrateConfigurationsNotificationShown" value="true" />
-    <option name="outputLimit" value="60" />
-    <option name="showImplicitConversions" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="99bbc776-a9d3-49c0-b4f9-4dccc91023fc" name="Changes" comment="" />
-      <created>1747203885300</created>
+      <changelist id="8ede7014-5d69-4acd-8762-3a532c7188c0" name="Changes" comment="" />
+      <created>1777913295251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747203885300</updated>
+      <updated>1777913295251</updated>
+      <workItem from="1777913298861" duration="505000" />
+      <workItem from="1777913819768" duration="513000" />
+      <workItem from="1777915271000" duration="352000" />
+      <workItem from="1778609068438" duration="440000" />
+      <workItem from="1778609695729" duration="1528000" />
+      <workItem from="1778688834450" duration="110000" />
+      <workItem from="1778689920473" duration="14430000" />
+      <workItem from="1778780832474" duration="1242000" />
+      <workItem from="1778931805384" duration="57000" />
+      <workItem from="1779726035356" duration="236000" />
+      <workItem from="1779982727943" duration="4682000" />
+      <workItem from="1780328381588" duration="51000" />
+      <workItem from="1780416153450" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.scalatest.exceptions.TestFailedException" package="org.scalatest.exceptions" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="j" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hello_akka$OrderRoutesSpec_Order_API_should_create_an_order__2_.ic" NAME="OrderRoutesSpec.Order API should create an order (2) Coverage Results" MODIFIED="1774079609007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/hello_akka$ExceptionAndErrors.ic" NAME="ExceptionAndErrors Coverage Results" MODIFIED="1768401034541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>oopsbasic.*</FILTER>
-    </SUITE>
   </component>
 </project>
